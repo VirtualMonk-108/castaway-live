@@ -1,0 +1,522 @@
+{
+  "curveballs" : [
+    {
+      "chancePerDay" : 0.35,
+      "earliestDay" : 3,
+      "kind" : "tribeSwap",
+      "latestDay" : 9,
+      "maxPerSeason" : 1
+    },
+    {
+      "chancePerDay" : 0.08,
+      "earliestDay" : 2,
+      "kind" : "nobodyGoesHome",
+      "latestDay" : 30,
+      "maxPerSeason" : 1
+    }
+  ],
+  "defaultFormat" : "classic12",
+  "economy" : {
+    "attributeMax" : 10,
+    "expensiveFrom" : 6,
+    "handSize" : 5,
+    "mergeFeastBonus" : 1,
+    "mergeFeastPlays" : 3,
+    "mysteryCardCost" : 2,
+    "playsPerDay" : 2,
+    "pointsPerDay" : 2,
+    "startingAttribute" : 4
+  },
+  "formats" : [
+    {
+      "blurb" : "12 castaways, 2 tribes, merge at 8, jury of 7.",
+      "finalists" : 2,
+      "id" : "classic12",
+      "jurySize" : 7,
+      "mergeAt" : 8,
+      "minTribeSize" : 3,
+      "name" : "Classic",
+      "players" : 12,
+      "tribes" : [
+        {
+          "colour" : "#FA9438",
+          "emblem" : "emblem-ember",
+          "name" : "Ember"
+        },
+        {
+          "colour" : "#339EB8",
+          "emblem" : "emblem-tide",
+          "name" : "Tide"
+        }
+      ]
+    },
+    {
+      "blurb" : "18 castaways, 3 tribes, merge at 11, jury of 9.",
+      "finalists" : 2,
+      "id" : "trio18",
+      "jurySize" : 9,
+      "mergeAt" : 11,
+      "minTribeSize" : 3,
+      "name" : "Three Tribes",
+      "players" : 18,
+      "tribes" : [
+        {
+          "colour" : "#FA9438",
+          "emblem" : "emblem-ember",
+          "name" : "Ember"
+        },
+        {
+          "colour" : "#339EB8",
+          "emblem" : "emblem-tide",
+          "name" : "Tide"
+        },
+        {
+          "colour" : "#4C9E66",
+          "name" : "Moss"
+        }
+      ]
+    },
+    {
+      "blurb" : "21 castaways, 3 tribes of 7, merge at 12, jury of 10.",
+      "finalists" : 2,
+      "id" : "trio21",
+      "jurySize" : 10,
+      "mergeAt" : 12,
+      "minTribeSize" : 3,
+      "name" : "Big Season",
+      "players" : 21,
+      "tribes" : [
+        {
+          "colour" : "#FA9438",
+          "emblem" : "emblem-ember",
+          "name" : "Ember"
+        },
+        {
+          "colour" : "#339EB8",
+          "emblem" : "emblem-tide",
+          "name" : "Tide"
+        },
+        {
+          "colour" : "#4C9E66",
+          "name" : "Moss"
+        }
+      ]
+    }
+  ],
+  "roster" : [
+    {
+      "archetype" : "Snake",
+      "charm" : 8,
+      "cunning" : 6,
+      "emoji" : "🕷️",
+      "grit" : 3,
+      "id" : "vespa",
+      "loyalty" : 1,
+      "name" : "Vespa",
+      "role" : "The Black Widow",
+      "spending" : [
+        "charm",
+        "cunning"
+      ],
+      "strategy" : 4,
+      "strength" : 3,
+      "tagline" : "Charms everyone, then strikes her closest ally."
+    },
+    {
+      "archetype" : "Strategist",
+      "art" : "char-shark",
+      "charm" : 5,
+      "cunning" : 6,
+      "emoji" : "🦈",
+      "grit" : 5,
+      "id" : "don",
+      "loyalty" : 4,
+      "name" : "Don",
+      "role" : "The Godfather",
+      "spending" : [
+        "cunning",
+        "grit"
+      ],
+      "strategy" : 5,
+      "strength" : 5,
+      "tagline" : "Builds a family, demands loyalty, runs the vote."
+    },
+    {
+      "archetype" : "Loyal Soldier",
+      "charm" : 3,
+      "cunning" : 2,
+      "emoji" : "🦢",
+      "grit" : 7,
+      "id" : "sifu",
+      "loyalty" : 5,
+      "name" : "Sifu",
+      "role" : "The Master",
+      "spending" : [
+        "strength",
+        "grit"
+      ],
+      "strategy" : 2,
+      "strength" : 7,
+      "tagline" : "Honour code, tall tales, and better in challenges than he looks."
+    },
+    {
+      "archetype" : "Wildcard",
+      "charm" : 2,
+      "cunning" : 9,
+      "emoji" : "🐹",
+      "grit" : 4,
+      "id" : "digger",
+      "loyalty" : 1,
+      "name" : "Digger",
+      "role" : "The Idol Hunter",
+      "spending" : [
+        "cunning",
+        "cunning",
+        "strength"
+      ],
+      "strategy" : 3,
+      "strength" : 3,
+      "tagline" : "Digs for idols all day and burns every bridge by night."
+    },
+    {
+      "archetype" : "Underdog",
+      "art" : "char-bee",
+      "charm" : 6,
+      "cunning" : 5,
+      "emoji" : "🐝",
+      "grit" : 8,
+      "id" : "queenie",
+      "loyalty" : 3,
+      "name" : "Queenie",
+      "role" : "The Queen",
+      "spending" : [
+        "grit",
+        "charm"
+      ],
+      "strategy" : 3,
+      "strength" : 2,
+      "tagline" : "Anyone but me. Bends with every wind and never breaks."
+    },
+    {
+      "archetype" : "Strategist",
+      "charm" : 3,
+      "cunning" : 7,
+      "emoji" : "🐊",
+      "grit" : 4,
+      "id" : "rex",
+      "loyalty" : 2,
+      "name" : "Rex",
+      "role" : "The Architect",
+      "spending" : [
+        "cunning",
+        "strength"
+      ],
+      "strategy" : 5,
+      "strength" : 5,
+      "tagline" : "Invented the alliance and is cold and open about it."
+    },
+    {
+      "archetype" : "Social Butterfly",
+      "charm" : 8,
+      "cunning" : 6,
+      "emoji" : "🐀",
+      "grit" : 5,
+      "id" : "mamacee",
+      "loyalty" : 3,
+      "name" : "Mama Cee",
+      "role" : "The Whisperer",
+      "spending" : [
+        "charm",
+        "cunning"
+      ],
+      "strategy" : 4,
+      "strength" : 1,
+      "tagline" : "Warm, underestimated, and running the vote from the shadows."
+    },
+    {
+      "archetype" : "Wildcard",
+      "art" : "char-raccoon",
+      "charm" : 4,
+      "cunning" : 8,
+      "emoji" : "🦝",
+      "grit" : 3,
+      "id" : "felix",
+      "loyalty" : 2,
+      "name" : "Felix",
+      "role" : "The Spy",
+      "spending" : [
+        "cunning",
+        "charm",
+        "strength"
+      ],
+      "strategy" : 5,
+      "strength" : 5,
+      "tagline" : "A spy shack in the jungle. Nobody knows what he knows."
+    },
+    {
+      "archetype" : "Challenge Beast",
+      "art" : "char-dolphin",
+      "charm" : 3,
+      "cunning" : 2,
+      "emoji" : "🐬",
+      "grit" : 4,
+      "id" : "marina",
+      "loyalty" : 3,
+      "name" : "Marina",
+      "role" : "The Fish",
+      "spending" : [
+        "strength",
+        "strength",
+        "charm"
+      ],
+      "strategy" : 2,
+      "strength" : 9,
+      "tagline" : "A challenge monster with no time for the social game."
+    },
+    {
+      "archetype" : "Challenge Beast",
+      "art" : "char-lion",
+      "charm" : 5,
+      "cunning" : 3,
+      "emoji" : "🦁",
+      "grit" : 5,
+      "id" : "leo",
+      "loyalty" : 4,
+      "name" : "Leo",
+      "role" : "The Protector",
+      "spending" : [
+        "strength",
+        "charm"
+      ],
+      "strategy" : 3,
+      "strength" : 8,
+      "tagline" : "Plays for the people back home. Loyal, and a threat at the end."
+    },
+    {
+      "archetype" : "Social Butterfly",
+      "art" : "char-fox",
+      "charm" : 8,
+      "cunning" : 5,
+      "emoji" : "🦊",
+      "grit" : 3,
+      "id" : "maya",
+      "loyalty" : 3,
+      "name" : "Maya",
+      "role" : "The Operator",
+      "spending" : [
+        "charm",
+        "cunning"
+      ],
+      "strategy" : 4,
+      "strength" : 4,
+      "tagline" : "Smooth social control. Never seen as the threat until it's too late."
+    },
+    {
+      "archetype" : "Strategist",
+      "charm" : 6,
+      "cunning" : 5,
+      "emoji" : "🐵",
+      "grit" : 3,
+      "id" : "rafa",
+      "loyalty" : 2,
+      "name" : "Rafa",
+      "role" : "The Joker",
+      "spending" : [
+        "cunning",
+        "charm"
+      ],
+      "strategy" : 4,
+      "strength" : 5,
+      "tagline" : "The jokes cover a sharp strategic mind."
+    },
+    {
+      "archetype" : "Snake",
+      "charm" : 6,
+      "cunning" : 6,
+      "emoji" : "🦡",
+      "grit" : 2,
+      "id" : "slick",
+      "loyalty" : 1,
+      "name" : "Slick",
+      "role" : "The Liar",
+      "spending" : [
+        "charm",
+        "cunning"
+      ],
+      "strategy" : 3,
+      "strength" : 4,
+      "tagline" : "The lie you never see coming. Fun at first, then feared."
+    },
+    {
+      "archetype" : "Loyal Soldier",
+      "art" : "char-bear",
+      "charm" : 6,
+      "cunning" : 1,
+      "emoji" : "🐻",
+      "grit" : 6,
+      "id" : "bruno",
+      "loyalty" : 5,
+      "name" : "Bruno",
+      "role" : "The Pirate",
+      "spending" : [
+        "strength",
+        "charm"
+      ],
+      "strategy" : 1,
+      "strength" : 7,
+      "tagline" : "Beloved, honest, loyal to a fault."
+    },
+    {
+      "archetype" : "Social Butterfly",
+      "charm" : 7,
+      "cunning" : 5,
+      "emoji" : "🦦",
+      "grit" : 2,
+      "id" : "cal",
+      "loyalty" : 2,
+      "name" : "Cal",
+      "role" : "The Charmer",
+      "spending" : [
+        "charm",
+        "strength"
+      ],
+      "strategy" : 3,
+      "strength" : 5,
+      "tagline" : "Likeable schemer who over-plays his idols."
+    },
+    {
+      "archetype" : "Underdog",
+      "charm" : 4,
+      "cunning" : 4,
+      "emoji" : "🐿️",
+      "grit" : 6,
+      "id" : "pip",
+      "loyalty" : 3,
+      "name" : "Pip",
+      "role" : "The Student",
+      "spending" : [
+        "strength",
+        "grit"
+      ],
+      "strategy" : 3,
+      "strength" : 6,
+      "tagline" : "A fan of the game who survives on immunity runs."
+    },
+    {
+      "archetype" : "Wildcard",
+      "art" : "char-wolf",
+      "charm" : 4,
+      "cunning" : 5,
+      "emoji" : "🐺",
+      "grit" : 5,
+      "id" : "kai",
+      "loyalty" : 2,
+      "name" : "Kai",
+      "role" : "The Cop",
+      "spending" : [
+        "strength",
+        "cunning"
+      ],
+      "strategy" : 4,
+      "strength" : 6,
+      "tagline" : "Switches sides at the perfect moment."
+    },
+    {
+      "archetype" : "Strategist",
+      "art" : "char-owl",
+      "charm" : 4,
+      "cunning" : 7,
+      "emoji" : "🦉",
+      "grit" : 4,
+      "id" : "dev",
+      "loyalty" : 3,
+      "name" : "Dev",
+      "role" : "The Professor",
+      "spending" : [
+        "cunning",
+        "grit"
+      ],
+      "strategy" : 5,
+      "strength" : 3,
+      "tagline" : "Rational. An idol is a tool, not a toy."
+    },
+    {
+      "archetype" : "Underdog",
+      "art" : "char-turtle",
+      "charm" : 7,
+      "cunning" : 3,
+      "emoji" : "🐢",
+      "grit" : 9,
+      "id" : "sofia",
+      "loyalty" : 4,
+      "name" : "Sofia",
+      "role" : "The Therapist",
+      "spending" : [
+        "grit",
+        "charm"
+      ],
+      "strategy" : 2,
+      "strength" : 2,
+      "tagline" : "Goes to every tribal council and still wins."
+    },
+    {
+      "archetype" : "Strategist",
+      "charm" : 4,
+      "cunning" : 8,
+      "emoji" : "🦅",
+      "grit" : 4,
+      "id" : "wren",
+      "loyalty" : 2,
+      "name" : "Wren",
+      "role" : "The Idol Queen",
+      "spending" : [
+        "cunning",
+        "strength"
+      ],
+      "strategy" : 4,
+      "strength" : 5,
+      "tagline" : "Idol plays that rewrite the night."
+    },
+    {
+      "archetype" : "Social Butterfly",
+      "art" : "char-eagle",
+      "charm" : 7,
+      "cunning" : 3,
+      "emoji" : "🦅",
+      "grit" : 5,
+      "id" : "rosa",
+      "loyalty" : 4,
+      "name" : "Rosa",
+      "role" : "The Diplomat",
+      "spending" : [
+        "charm",
+        "grit"
+      ],
+      "strategy" : 2,
+      "strength" : 5,
+      "tagline" : "Keeps every side talking and is rarely the target."
+    },
+    {
+      "archetype" : "Social Butterfly",
+      "art" : "char-butterfly",
+      "charm" : 8,
+      "cunning" : 3,
+      "emoji" : "🦋",
+      "grit" : 3,
+      "id" : "lena",
+      "loyalty" : 3,
+      "name" : "Lena",
+      "role" : "The Sweetheart",
+      "spending" : [
+        "charm",
+        "charm",
+        "cunning"
+      ],
+      "strategy" : 2,
+      "strength" : 3,
+      "tagline" : "Everyone's friend, until the vote."
+    }
+  ],
+  "schemaVersion" : 1,
+  "version" : "2026-10-03.1"
+}
