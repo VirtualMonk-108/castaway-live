@@ -72,6 +72,7 @@
         },
         {
           "colour" : "#4C9E66",
+          "emblem" : "emblem-moss",
           "name" : "Moss"
         }
       ]
@@ -98,6 +99,7 @@
         },
         {
           "colour" : "#4C9E66",
+          "emblem" : "emblem-moss",
           "name" : "Moss"
         }
       ]
@@ -106,6 +108,7 @@
   "roster" : [
     {
       "archetype" : "Snake",
+      "art" : "char-spider",
       "charm" : 8,
       "cunning" : 6,
       "emoji" : "🕷️",
@@ -143,6 +146,7 @@
     },
     {
       "archetype" : "Loyal Soldier",
+      "art" : "char-crane",
       "charm" : 3,
       "cunning" : 2,
       "emoji" : "🦢",
@@ -161,6 +165,7 @@
     },
     {
       "archetype" : "Wildcard",
+      "art" : "char-mole",
       "charm" : 2,
       "cunning" : 9,
       "emoji" : "🐹",
@@ -199,6 +204,7 @@
     },
     {
       "archetype" : "Strategist",
+      "art" : "char-crocodile",
       "charm" : 3,
       "cunning" : 7,
       "emoji" : "🐊",
@@ -217,6 +223,7 @@
     },
     {
       "archetype" : "Social Butterfly",
+      "art" : "char-possum",
       "charm" : 8,
       "cunning" : 6,
       "emoji" : "🐀",
@@ -313,6 +320,7 @@
     },
     {
       "archetype" : "Strategist",
+      "art" : "char-monkey",
       "charm" : 6,
       "cunning" : 5,
       "emoji" : "🐵",
@@ -331,6 +339,7 @@
     },
     {
       "archetype" : "Snake",
+      "art" : "char-weasel",
       "charm" : 6,
       "cunning" : 6,
       "emoji" : "🦡",
@@ -368,6 +377,7 @@
     },
     {
       "archetype" : "Social Butterfly",
+      "art" : "char-otter",
       "charm" : 7,
       "cunning" : 5,
       "emoji" : "🦦",
@@ -386,6 +396,7 @@
     },
     {
       "archetype" : "Underdog",
+      "art" : "char-meerkat",
       "charm" : 4,
       "cunning" : 4,
       "emoji" : "🐿️",
@@ -461,6 +472,7 @@
     },
     {
       "archetype" : "Strategist",
+      "art" : "char-hawk",
       "charm" : 4,
       "cunning" : 8,
       "emoji" : "🦅",
@@ -518,5 +530,5 @@
     }
   ],
   "schemaVersion" : 1,
-  "version" : "2026-10-03.1"
+  "version" : "2026-10-03.2"
 }
