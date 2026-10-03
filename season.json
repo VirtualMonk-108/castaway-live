@@ -1,4 +1,18 @@
 {
+  "career" : {
+    "buildCap" : 7,
+    "buildPoints" : 6,
+    "finalPoints" : 2,
+    "movePoints" : 1,
+    "returneesEntry" : 5,
+    "returneesPayout" : 2,
+    "returneesUnlockFinals" : 3,
+    "returneesUnlockWins" : 1,
+    "shieldPoints" : 1,
+    "spendMax" : 6,
+    "unionPoints" : 1,
+    "winPoints" : 3
+  },
   "curveballs" : [
     {
       "chancePerDay" : 0.35,
@@ -19,26 +33,32 @@
   "defaultFormat" : "classic12",
   "difficulties" : [
     {
-      "blurb" : "Rivals underestimate you and camp talk is mostly honest.",
+      "blurb" : "You remember everything. Rivals underestimate you and camp talk is mostly honest.",
       "id" : "easy",
       "lieFactor" : 0.5,
+      "memory" : "everything",
       "name" : "Easy",
+      "payout" : 1,
       "rivalPointsBonus" : 0,
       "threatBias" : -0.75
     },
     {
-      "blurb" : "The island as it is.",
+      "blurb" : "You remember your own dealings and the season so far.",
       "id" : "normal",
       "lieFactor" : 1,
+      "memory" : "yours",
       "name" : "Normal",
+      "payout" : 1,
       "rivalPointsBonus" : 0,
       "threatBias" : 0
     },
     {
-      "blurb" : "Rivals see you coming and camp talk lies more.",
+      "blurb" : "No notes: you remember only today. Rivals see you coming and camp talk lies more. Pays double.",
       "id" : "hard",
       "lieFactor" : 1.5,
+      "memory" : "nothing",
       "name" : "Hard",
+      "payout" : 2,
       "rivalPointsBonus" : 0,
       "threatBias" : 0.75
     }
@@ -56,7 +76,7 @@
   },
   "formats" : [
     {
-      "blurb" : "12 castaways, 2 tribes, merge at 8, jury of 7.",
+      "blurb" : "12 castaways, 2 camps, Union at 8, jury of 7.",
       "finalists" : 2,
       "id" : "classic12",
       "jurySize" : 7,
@@ -78,13 +98,13 @@
       ]
     },
     {
-      "blurb" : "18 castaways, 3 tribes, merge at 11, jury of 9.",
+      "blurb" : "18 castaways, 3 camps, Union at 11, jury of 9.",
       "finalists" : 2,
       "id" : "trio18",
       "jurySize" : 9,
       "mergeAt" : 11,
       "minTribeSize" : 3,
-      "name" : "Three Tribes",
+      "name" : "Three Camps",
       "players" : 18,
       "tribes" : [
         {
@@ -105,7 +125,7 @@
       ]
     },
     {
-      "blurb" : "21 castaways, 3 tribes of 7, merge at 12, jury of 10.",
+      "blurb" : "21 castaways, 3 camps of 7, Union at 12, jury of 10.",
       "finalists" : 2,
       "id" : "trio21",
       "jurySize" : 10,
@@ -267,7 +287,7 @@
       "id" : "mabel",
       "name" : "Mabel",
       "role" : "The Possum",
-      "tagline" : "Naps all afternoon. Wide awake at tribal."
+      "tagline" : "Naps all afternoon. Wide awake at the Mela."
     },
     {
       "art" : "char-monkey",
@@ -366,7 +386,7 @@
       ],
       "strategy" : 2,
       "strength" : 7,
-      "tagline" : "Honour code, tall tales, and better in challenges than he looks."
+      "tagline" : "Honour code, tall tales, and better in the War Zone than he looks."
     },
     {
       "archetype" : "Wildcard",
@@ -378,7 +398,7 @@
       "id" : "digger",
       "loyalty" : 1,
       "name" : "Digger",
-      "role" : "The Idol Hunter",
+      "role" : "The Shield Hunter",
       "spending" : [
         "cunning",
         "cunning",
@@ -386,7 +406,7 @@
       ],
       "strategy" : 3,
       "strength" : 3,
-      "tagline" : "Digs for idols all day and burns every bridge by night."
+      "tagline" : "Digs for shields all day and burns every bridge by night."
     },
     {
       "archetype" : "Underdog",
@@ -483,7 +503,7 @@
       ],
       "strategy" : 2,
       "strength" : 9,
-      "tagline" : "A challenge monster with no time for the social game."
+      "tagline" : "A War Zone monster with no time for the social game."
     },
     {
       "archetype" : "Challenge Beast",
@@ -597,7 +617,7 @@
       ],
       "strategy" : 3,
       "strength" : 5,
-      "tagline" : "Likeable schemer who over-plays his idols."
+      "tagline" : "Likeable schemer who over-plays his shields."
     },
     {
       "archetype" : "Underdog",
@@ -616,7 +636,7 @@
       ],
       "strategy" : 3,
       "strength" : 6,
-      "tagline" : "A fan of the game who survives on immunity runs."
+      "tagline" : "A fan of the game who survives on War Zone runs."
     },
     {
       "archetype" : "Wildcard",
@@ -654,7 +674,7 @@
       ],
       "strategy" : 5,
       "strength" : 3,
-      "tagline" : "Rational. An idol is a tool, not a toy."
+      "tagline" : "Rational. A shield is a tool, not a toy."
     },
     {
       "archetype" : "Underdog",
@@ -673,7 +693,7 @@
       ],
       "strategy" : 2,
       "strength" : 2,
-      "tagline" : "Goes to every tribal council and still wins."
+      "tagline" : "Goes to every Mela and still wins."
     },
     {
       "archetype" : "Strategist",
@@ -685,14 +705,14 @@
       "id" : "wren",
       "loyalty" : 2,
       "name" : "Wren",
-      "role" : "The Idol Queen",
+      "role" : "The Shield Queen",
       "spending" : [
         "cunning",
         "strength"
       ],
       "strategy" : 4,
       "strength" : 5,
-      "tagline" : "Idol plays that rewrite the night."
+      "tagline" : "Shield plays that rewrite the night."
     },
     {
       "archetype" : "Social Butterfly",
@@ -735,5 +755,5 @@
     }
   ],
   "schemaVersion" : 1,
-  "version" : "2026-10-03.3"
+  "version" : "2026-10-03.4"
 }
