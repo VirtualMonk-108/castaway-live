@@ -15,7 +15,34 @@
       "maxPerSeason" : 1
     }
   ],
+  "defaultDifficulty" : "normal",
   "defaultFormat" : "classic12",
+  "difficulties" : [
+    {
+      "blurb" : "Rivals underestimate you and camp talk is mostly honest.",
+      "id" : "easy",
+      "lieFactor" : 0.5,
+      "name" : "Easy",
+      "rivalPointsBonus" : 0,
+      "threatBias" : -0.75
+    },
+    {
+      "blurb" : "The island as it is.",
+      "id" : "normal",
+      "lieFactor" : 1,
+      "name" : "Normal",
+      "rivalPointsBonus" : 0,
+      "threatBias" : 0
+    },
+    {
+      "blurb" : "Rivals see you coming and camp talk lies more.",
+      "id" : "hard",
+      "lieFactor" : 1.5,
+      "name" : "Hard",
+      "rivalPointsBonus" : 0,
+      "threatBias" : 0.75
+    }
+  ],
   "economy" : {
     "attributeMax" : 10,
     "expensiveFrom" : 6,
@@ -103,6 +130,184 @@
           "name" : "Moss"
         }
       ]
+    }
+  ],
+  "islanders" : [
+    {
+      "art" : "char-fox",
+      "emoji" : "🦊",
+      "id" : "nia",
+      "name" : "Nia",
+      "role" : "The Fox",
+      "tagline" : "Hums while she works. Nobody knows the song."
+    },
+    {
+      "art" : "char-bear",
+      "emoji" : "🐻",
+      "id" : "theo",
+      "name" : "Theo",
+      "role" : "The Bear",
+      "tagline" : "Snores like a chainsaw. Sleeps through anything."
+    },
+    {
+      "art" : "char-owl",
+      "emoji" : "🦉",
+      "id" : "priya",
+      "name" : "Priya",
+      "role" : "The Owl",
+      "tagline" : "Up before everyone, reading the sky."
+    },
+    {
+      "art" : "char-wolf",
+      "emoji" : "🐺",
+      "id" : "jonah",
+      "name" : "Jonah",
+      "role" : "The Wolf",
+      "tagline" : "Says little. Watches a lot."
+    },
+    {
+      "art" : "char-butterfly",
+      "emoji" : "🦋",
+      "id" : "ivy",
+      "name" : "Ivy",
+      "role" : "The Butterfly",
+      "tagline" : "Collects shells and names every one of them."
+    },
+    {
+      "art" : "char-lion",
+      "emoji" : "🦁",
+      "id" : "marcus",
+      "name" : "Marcus",
+      "role" : "The Lion",
+      "tagline" : "Laughs loudest at his own jokes."
+    },
+    {
+      "art" : "char-dolphin",
+      "emoji" : "🐬",
+      "id" : "isla",
+      "name" : "Isla",
+      "role" : "The Dolphin",
+      "tagline" : "First in the water every morning."
+    },
+    {
+      "art" : "char-shark",
+      "emoji" : "🦈",
+      "id" : "tomas",
+      "name" : "Tomas",
+      "role" : "The Shark",
+      "tagline" : "Never blinks. Possibly never sleeps."
+    },
+    {
+      "art" : "char-eagle",
+      "emoji" : "🦅",
+      "id" : "amara",
+      "name" : "Amara",
+      "role" : "The Eagle",
+      "tagline" : "Sits on the highest rock at sunset."
+    },
+    {
+      "art" : "char-turtle",
+      "emoji" : "🐢",
+      "id" : "eva",
+      "name" : "Eva",
+      "role" : "The Turtle",
+      "tagline" : "Does everything slowly, and finishes everything."
+    },
+    {
+      "art" : "char-bee",
+      "emoji" : "🐝",
+      "id" : "zara",
+      "name" : "Zara",
+      "role" : "The Bee",
+      "tagline" : "Can't sit still. Fixes the shelter twice a day."
+    },
+    {
+      "art" : "char-raccoon",
+      "emoji" : "🦝",
+      "id" : "ruben",
+      "name" : "Ruben",
+      "role" : "The Raccoon",
+      "tagline" : "Knows where the food is. All of it."
+    },
+    {
+      "art" : "char-spider",
+      "emoji" : "🕷️",
+      "id" : "benji",
+      "name" : "Benji",
+      "role" : "The Spider",
+      "tagline" : "Weaves hats out of palm leaves and hands them out."
+    },
+    {
+      "art" : "char-crane",
+      "emoji" : "🦢",
+      "id" : "hana",
+      "name" : "Hana",
+      "role" : "The Crane",
+      "tagline" : "Stretches at dawn and expects you to join in."
+    },
+    {
+      "art" : "char-mole",
+      "emoji" : "🐹",
+      "id" : "ollie",
+      "name" : "Ollie",
+      "role" : "The Mole",
+      "tagline" : "Can't see a thing without his glasses. Lost his glasses."
+    },
+    {
+      "art" : "char-crocodile",
+      "emoji" : "🐊",
+      "id" : "gus",
+      "name" : "Gus",
+      "role" : "The Crocodile",
+      "tagline" : "Tells the same fishing story every night. It gets bigger."
+    },
+    {
+      "art" : "char-possum",
+      "emoji" : "🐀",
+      "id" : "mabel",
+      "name" : "Mabel",
+      "role" : "The Possum",
+      "tagline" : "Naps all afternoon. Wide awake at tribal."
+    },
+    {
+      "art" : "char-monkey",
+      "emoji" : "🐵",
+      "id" : "jude",
+      "name" : "Jude",
+      "role" : "The Monkey",
+      "tagline" : "Climbs for coconuts and drops half of them."
+    },
+    {
+      "art" : "char-weasel",
+      "emoji" : "🦡",
+      "id" : "sal",
+      "name" : "Sal",
+      "role" : "The Weasel",
+      "tagline" : "Talks fast, eats faster."
+    },
+    {
+      "art" : "char-otter",
+      "emoji" : "🦦",
+      "id" : "dani",
+      "name" : "Dani",
+      "role" : "The Otter",
+      "tagline" : "Floats on her back and thinks about dinner."
+    },
+    {
+      "art" : "char-meerkat",
+      "emoji" : "🐿️",
+      "id" : "milo",
+      "name" : "Milo",
+      "role" : "The Meerkat",
+      "tagline" : "Jumps at every noise in the jungle."
+    },
+    {
+      "art" : "char-hawk",
+      "emoji" : "🦅",
+      "id" : "ash",
+      "name" : "Ash",
+      "role" : "The Hawk",
+      "tagline" : "Keeps a tally of the days on a stick."
     }
   ],
   "roster" : [
@@ -530,5 +735,5 @@
     }
   ],
   "schemaVersion" : 1,
-  "version" : "2026-10-03.2"
+  "version" : "2026-10-03.3"
 }
