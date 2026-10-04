@@ -40,7 +40,8 @@
       "name" : "Easy",
       "payout" : 1,
       "rivalPointsBonus" : 0,
-      "threatBias" : -0.75
+      "threatBias" : -0.75,
+      "threatMeter" : true
     },
     {
       "blurb" : "You remember your own dealings and the season so far.",
@@ -50,17 +51,19 @@
       "name" : "Normal",
       "payout" : 1,
       "rivalPointsBonus" : 0,
-      "threatBias" : 0
+      "threatBias" : -0.3,
+      "threatMeter" : true
     },
     {
-      "blurb" : "No notes: you remember only today. Rivals see you coming and camp talk lies more. Pays double.",
+      "blurb" : "No notes: you remember only today, and no thermometer. Rivals see you coming and camp talk lies more. Pays double.",
       "id" : "hard",
       "lieFactor" : 1.5,
       "memory" : "nothing",
       "name" : "Hard",
       "payout" : 2,
       "rivalPointsBonus" : 0,
-      "threatBias" : 0.75
+      "threatBias" : 0.75,
+      "threatMeter" : false
     }
   ],
   "economy" : {
@@ -73,6 +76,17 @@
     "playsPerDay" : 2,
     "pointsPerDay" : 2,
     "startingAttribute" : 4
+  },
+  "final" : {
+    "betrayal" : 1,
+    "moveCap" : 3,
+    "returneeHistoryCap" : 2,
+    "returneeHistoryDivisor" : 3,
+    "seat" : 1,
+    "trustedJuror" : 1,
+    "winCap" : 3,
+    "winPenalty" : 2,
+    "winPenaltyCap" : 4
   },
   "formats" : [
     {
@@ -330,6 +344,9 @@
       "tagline" : "Keeps a tally of the days on a stick."
     }
   ],
+  "offers" : {
+    "chancePerDay" : 0.3
+  },
   "roster" : [
     {
       "archetype" : "Snake",
@@ -755,5 +772,5 @@
     }
   ],
   "schemaVersion" : 1,
-  "version" : "2026-10-03.4"
+  "version" : "2026-10-04.1"
 }
