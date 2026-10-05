@@ -28,13 +28,6 @@
       "kind": "tribeSwap",
       "latestDay": 9,
       "maxPerSeason": 1
-    },
-    {
-      "chancePerDay": 0.08,
-      "earliestDay": 2,
-      "kind": "nobodyGoesHome",
-      "latestDay": 30,
-      "maxPerSeason": 1
     }
   ],
   "defaultDifficulty": "normal",
@@ -357,7 +350,7 @@
       "tagline": "Keeps a tally of the days on a stick."
     }
   ],
-  "message": "Remove the nobody-goes-home twist",
+  "message": "Remove the nobody-goes-home twist (recompiled)",
   "offers": {
     "chancePerDay": 0.3
   },
@@ -826,5 +819,5 @@
     }
   ],
   "schemaVersion": 1,
-  "version": "2026-10-05.1"
+  "version": "2026-10-05.2"
 }
