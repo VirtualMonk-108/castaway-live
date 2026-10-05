@@ -350,7 +350,7 @@
       "tagline": "Keeps a tally of the days on a stick."
     }
   ],
-  "message": "Remove the nobody-goes-home twist (recompiled)",
+  "message": "An island of animals, and the humans they become.",
   "offers": {
     "chancePerDay": 0.3
   },
@@ -819,5 +819,5 @@
     }
   ],
   "schemaVersion": 1,
-  "version": "2026-10-05.2"
+  "version": "2026-10-05.3"
 }
