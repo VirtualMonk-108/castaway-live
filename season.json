@@ -357,6 +357,7 @@
       "tagline": "Keeps a tally of the days on a stick."
     }
   ],
+  "message": "Remove the nobody-goes-home twist",
   "offers": {
     "chancePerDay": 0.3
   },
@@ -825,5 +826,5 @@
     }
   ],
   "schemaVersion": 1,
-  "version": "2026-10-04.2"
+  "version": "2026-10-05.1"
 }
