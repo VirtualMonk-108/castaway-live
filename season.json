@@ -200,6 +200,11 @@
       ]
     }
   ],
+  "host": {
+    "softSpot": "A good story at the fire. He'll hold the ballots a moment longer for one.",
+    "story": "Hollis has hosted the island for longer than anyone can quite work out. He runs the War Zone, keeps the fire at the Mela, and reads every ballot in the voter's own handwriting. He has seen every kind of player there is and claims to have a favourite, though he has never once said who. He takes no sides. Probably.",
+    "wants": "A season nobody saw coming."
+  },
   "islanders": [
     {
       "art": "char-fox",
@@ -207,6 +212,11 @@
       "id": "nia",
       "name": "Nia",
       "role": "The Fox",
+      "story": {
+        "softSpot": "Someone who hums along.",
+        "story": "Nia was the first animal on the island to pick up a torch, or so she says, and nobody alive can argue. She lives in the dunes behind Camp Tide and knows every path through the grass. She hums while she works and stops the moment anyone asks what the song is. What she's thinking is anyone's guess, and she likes it that way.",
+        "wants": "To make it past the Union without anyone learning the song, or the plan."
+      },
       "tagline": "Hums while she works. Nobody knows the song."
     },
     {
@@ -215,6 +225,11 @@
       "id": "theo",
       "name": "Theo",
       "role": "The Bear",
+      "story": {
+        "softSpot": "Breakfast. Bring it and you're forgiven for anything.",
+        "story": "Theo came down from the high forest the winter the fruit failed and never went back up. He's the biggest thing in camp and the slowest to anger, and he sleeps through storms, arguments and at least one Mela. Wake him for food and he's your friend; wake him for anything else and you'll hear about it. Nobody knows what he's like properly awake.",
+        "wants": "To wake up on the last morning and find it's just him."
+      },
       "tagline": "Snores like a chainsaw. Sleeps through anything."
     },
     {
@@ -223,6 +238,11 @@
       "id": "priya",
       "name": "Priya",
       "role": "The Owl",
+      "story": {
+        "softSpot": "A sunrise shared in silence.",
+        "story": "Priya is up before the sun and watches the sky the way others watch the fire. She came from the tall trees on the island's spine, where you learn to see a long way. She speaks last in most conversations, and often what she says is the thing everyone then does. Whether she saw it coming or made it come is a fair question.",
+        "wants": "To see the end coming three nights before anyone else does."
+      },
       "tagline": "Up before everyone, reading the sky."
     },
     {
@@ -231,6 +251,11 @@
       "id": "jonah",
       "name": "Jonah",
       "role": "The Wolf",
+      "story": {
+        "softSpot": "Someone who sits with him and doesn't fill the quiet.",
+        "story": "Jonah walked out of the north scrub alone, which is unusual for a wolf, and has never said why. He says little, eats slowly and remembers where everyone sat. People fill his silences with their own worries, which tells him a great deal. He'd rather be trusted than liked, and usually ends up as both.",
+        "wants": "To be the one person on the island nobody could ever read."
+      },
       "tagline": "Says little. Watches a lot."
     },
     {
@@ -239,6 +264,11 @@
       "id": "ivy",
       "name": "Ivy",
       "role": "The Butterfly",
+      "story": {
+        "softSpot": "A shell she hasn't got. Bring her one and you've got a friend.",
+        "story": "Ivy drifted in on a storm wind and decided the beach was home before the rain had stopped. She collects shells, names every one, and will introduce you to them if you let her. She floats between camps the way she floats between conversations, light and welcome. People forget she's listening, which she doesn't mind at all.",
+        "wants": "To be the last one left on the beach, with the whole collection."
+      },
       "tagline": "Collects shells and names every one of them."
     },
     {
@@ -247,6 +277,11 @@
       "id": "marcus",
       "name": "Marcus",
       "role": "The Lion",
+      "story": {
+        "softSpot": "An audience. Laugh at the second telling and he'll fight for you.",
+        "story": "Marcus crossed from the dry side of the island with a mane full of burrs and a laugh you can hear from the other camp. He thinks he's in charge of every room he walks into and is right more often than is good for him. He tells his jokes twice in case you missed them and laughs loudest both times. Underneath it, he watches who laughs.",
+        "wants": "To be feared and voted for at the same time."
+      },
       "tagline": "Laughs loudest at his own jokes."
     },
     {
@@ -255,6 +290,11 @@
       "id": "isla",
       "name": "Isla",
       "role": "The Dolphin",
+      "story": {
+        "softSpot": "A swim at dawn. Join her once and she'll tell you things on the way back.",
+        "story": "Isla has never spent a whole day on land and sees no reason to start. She's first in the water every morning and back with the fish before most of camp has yawned. She talks fast, swims faster and seems to find everything about the island delightful. Nobody has worked out whether that's the whole story.",
+        "wants": "To win the War Zone so often they stop bothering to compete."
+      },
       "tagline": "First in the water every morning."
     },
     {
@@ -263,6 +303,11 @@
       "id": "tomas",
       "name": "Tomas",
       "role": "The Shark",
+      "story": {
+        "softSpot": "Calm. He trusts the ones who don't flinch when he looks at them.",
+        "story": "Tomas came up the deep channel in the season of the big swells and stayed when the water calmed. He doesn't blink, doesn't raise his voice, and doesn't appear to sleep. He is unfailingly polite, which somehow makes it worse. When he smiles at the fire, people check who's missing.",
+        "wants": "To go the whole season without ever being the one who's surprised."
+      },
       "tagline": "Never blinks. Possibly never sleeps."
     },
     {
@@ -271,6 +316,11 @@
       "id": "amara",
       "name": "Amara",
       "role": "The Eagle",
+      "story": {
+        "softSpot": "The high ground. Climb up to her instead of calling her down.",
+        "story": "Amara nests on the cliffs above Camp Ember and comes down to the beach when it suits her. She sits on the highest rock at sunset and sees the whole island, both camps, and who is walking where. She prefers heights, long views and short conversations. When she does come to sit by the fire, people assume she already knows.",
+        "wants": "To watch every move of the season from above, and make one of her own at the end."
+      },
       "tagline": "Sits on the highest rock at sunset."
     },
     {
@@ -279,6 +329,11 @@
       "id": "eva",
       "name": "Eva",
       "role": "The Turtle",
+      "story": {
+        "softSpot": "Patience. Wait for her answer and it'll be worth it.",
+        "story": "Eva has been on this beach longer than the beach has been a camp. She does everything slowly, finishes everything she starts and has never once been seen to hurry, even at the War Zone. People write her off in the first week and are still explaining themselves to her in the last. She has seen off storms, tides and a great many clever animals.",
+        "wants": "To be sitting at the last fire having been nobody's priority all season."
+      },
       "tagline": "Does everything slowly, and finishes everything."
     },
     {
@@ -287,6 +342,11 @@
       "id": "zara",
       "name": "Zara",
       "role": "The Bee",
+      "story": {
+        "softSpot": "Help without being asked. Pick up the other end of the log.",
+        "story": "Zara arrived with the flowering season and has not stopped moving since. She fixes the shelter twice a day, re-stacks the firewood, and has an opinion on how you're holding your spear. The camp runs on her and is occasionally exhausted by her. She would rather do than talk, and does.",
+        "wants": "To be the one who built the camp that gets to the end."
+      },
       "tagline": "Can't sit still. Fixes the shelter twice a day."
     },
     {
@@ -295,6 +355,11 @@
       "id": "ruben",
       "name": "Ruben",
       "role": "The Raccoon",
+      "story": {
+        "softSpot": "A trade. Offer him something and you've got his ear, and possibly your things back.",
+        "story": "Ruben appeared the night the first camp's food went missing and has been very helpful about finding food ever since. He knows where every coconut, crab and hidden ration on the island is, and will trade that for almost anything. He has sticky fingers and a clear conscience. Whether he's your best friend or your biggest problem depends on what you've got.",
+        "wants": "To be holding the thing everyone needs on the night everyone needs it."
+      },
       "tagline": "Knows where the food is. All of it."
     },
     {
@@ -303,6 +368,11 @@
       "id": "benji",
       "name": "Benji",
       "role": "The Spider",
+      "story": {
+        "softSpot": "Wearing the hat. It matters to him more than he'll say.",
+        "story": "Benji lives in the eaves of whatever shelter is closest and weaves palm-leaf hats for anyone who'll wear one. He's small, quick and oddly comforting to have around, and most of camp has forgotten he can bite. He hears everything said under his roof. He hands out hats the way other people hand out promises, and keeps count of both.",
+        "wants": "To have a thread tied to every single person at the last fire."
+      },
       "tagline": "Weaves hats out of palm leaves and hands them out."
     },
     {
@@ -311,6 +381,11 @@
       "id": "hana",
       "name": "Hana",
       "role": "The Crane",
+      "story": {
+        "softSpot": "Joining the dawn stretch. Show up once, badly, and she'll adopt you.",
+        "story": "Hana came from the marsh at the island's heart, where you stand very still for a very long time and then strike. She stretches at dawn and expects the whole camp to join in, and some of them now do. She is graceful, exacting and quietly competitive about everything from firewood to the War Zone. Grace, she says, is just strength that's been practised.",
+        "wants": "To win the War Zone when it matters most and look like it cost nothing."
+      },
       "tagline": "Stretches at dawn and expects you to join in."
     },
     {
@@ -319,6 +394,11 @@
       "id": "ollie",
       "name": "Ollie",
       "role": "The Mole",
+      "story": {
+        "softSpot": "Being guided without being teased. Take his arm.",
+        "story": "Ollie came up through the floor of the jungle one morning and has been slightly surprised by daylight ever since. He can't see a thing without his glasses and lost them on day one, so he finds his way round camp by voice, smell and bumping into things. He knows the beach below the sand better than anyone. People tell him things because they assume he can't tell who they are. He can.",
+        "wants": "To find what's buried on the beach before the ones who can see."
+      },
       "tagline": "Can't see a thing without his glasses. Lost his glasses."
     },
     {
@@ -327,6 +407,11 @@
       "id": "gus",
       "name": "Gus",
       "role": "The Crocodile",
+      "story": {
+        "softSpot": "Hearing the story again. Ask about the fish.",
+        "story": "Gus has lain in the river mouth below Camp Moss since before the camps had names. He tells the same fishing story every night, and every night the fish is bigger, and every night the camp lets him. He is slow to move and very fast when he does. The smile is permanent and tells you nothing.",
+        "wants": "To be the one still telling stories when the last fire burns out."
+      },
       "tagline": "Tells the same fishing story every night. It gets bigger."
     },
     {
@@ -335,6 +420,11 @@
       "id": "mabel",
       "name": "Mabel",
       "role": "The Possum",
+      "story": {
+        "softSpot": "A warm spot by the fire and not being woken.",
+        "story": "Mabel came in under the shelter one night and was found asleep in the rafters the next morning, and that's where she stayed. She naps all afternoon, misses most of the day's arguments, and is wide awake, bright-eyed and listening at the Mela. People stop noticing her by day three. That is her favourite part.",
+        "wants": "To be at the last fire having been forgotten by everyone on the way there."
+      },
       "tagline": "Naps all afternoon. Wide awake at the Mela."
     },
     {
@@ -343,6 +433,11 @@
       "id": "jude",
       "name": "Jude",
       "role": "The Monkey",
+      "story": {
+        "softSpot": "Mischief shared. Catch a coconut and throw one back.",
+        "story": "Jude swung down from the big trees at the head of the beach to see what the fire was about and never swung back. He climbs for coconuts and drops half of them, mostly on purpose, mostly near people he likes. He cannot keep still, cannot keep a straight face and, some say, cannot keep a secret. Some are wrong.",
+        "wants": "To cause the chaos that decides the season and be nowhere near it."
+      },
       "tagline": "Climbs for coconuts and drops half of them."
     },
     {
@@ -351,6 +446,11 @@
       "id": "sal",
       "name": "Sal",
       "role": "The Weasel",
+      "story": {
+        "softSpot": "Being listened to, all the way to the end of the sentence.",
+        "story": "Sal shot out of the long grass behind Camp Ember on day one already mid-sentence. Sal talks fast, eats faster, and seems to be in three conversations at once, all of them urgent. Nobody has ever caught Sal out, which is either luck or a very good memory. People like Sal more than they trust Sal, and Sal is working on the second part.",
+        "wants": "To talk the camp into a vote it would never have made alone."
+      },
       "tagline": "Talks fast, eats faster."
     },
     {
@@ -359,6 +459,11 @@
       "id": "dani",
       "name": "Dani",
       "role": "The Otter",
+      "story": {
+        "softSpot": "A shared meal, especially one she didn't catch.",
+        "story": "Dani lives in the shallows off Camp Tide and sees no reason to come further in than the fire. She floats on her back, thinks about dinner, and is more popular than anyone who works that little has a right to be. She's easy to like and hard to pin down. Ask her a serious question and she'll answer it from the water, drifting.",
+        "wants": "To drift all the way to the final and be surprised to find herself there."
+      },
       "tagline": "Floats on her back and thinks about dinner."
     },
     {
@@ -367,6 +472,11 @@
       "id": "milo",
       "name": "Milo",
       "role": "The Meerkat",
+      "story": {
+        "softSpot": "Being told it's going to be fine, by someone who means it.",
+        "story": "Milo came from the burrows on the dry plateau, where somebody is always on watch and that somebody was always him. He jumps at every noise in the jungle and is usually right that it was something. He keeps the fire fed through the night because he can't sleep anyway. Nervous, loyal, and the first to spot trouble coming down the beach.",
+        "wants": "To see the blindside coming and be standing on the other side of it."
+      },
       "tagline": "Jumps at every noise in the jungle."
     },
     {
@@ -375,9 +485,19 @@
       "id": "ash",
       "name": "Ash",
       "role": "The Hawk",
+      "story": {
+        "softSpot": "Fairness. Pull your weight and Ash will say so, loudly.",
+        "story": "Ash came in high over the island, circled twice and landed at the exact centre of the beach. Ash keeps a tally of the days on a stick and knows the count without looking at it. Sharp-eyed, sharp-tongued and sharp about who has fed the fire and who hasn't. Ash notices everything and forgives very little of it.",
+        "wants": "To make one cut at the right moment and have the whole season turn on it."
+      },
       "tagline": "Keeps a tally of the days on a stick."
     }
   ],
+  "newcomer": {
+    "softSpot": "Whatever you let them see.",
+    "story": "You arrived with the tide and no reputation. Nobody on the island knows what kind of player you are, which for one season is the best card you will ever hold. Every camp has a plan for the Legends. Nobody has a plan for you. Yet.",
+    "wants": "The last flame on the island."
+  },
   "offers": {
     "chancePerDay": 0.3
   },
@@ -437,6 +557,11 @@
         "charm",
         "cunning"
       ],
+      "story": {
+        "softSpot": "A straight answer. Tell her the truth when a lie would be easier and she remembers it.",
+        "story": "Vespa grew up in the back of her parents' pawnshop, learning what people will say when they want something. She has never lost a game of cards she cared about, and she cares about all of them. On the island she makes one close friend at a time and stays close right up to the night she needs their seat. She would tell you it isn't personal; the friends disagree.",
+        "wants": "To win without ever having her own name written down."
+      },
       "strategy": 4,
       "strength": 3,
       "tagline": "Charms everyone, then strikes her closest ally."
@@ -456,6 +581,11 @@
         "cunning",
         "grit"
       ],
+      "story": {
+        "softSpot": "Being asked for advice. Come to him first and you're family.",
+        "story": "Don ran a family kitchen for thirty years and never once let a cook quit without a hug. He believes a camp is a family and a family has a head, and he intends to be it. He gives loyalty before he asks for it, and then he asks for all of it. Cross him and he doesn't shout; he simply counts the votes without you.",
+        "wants": "To sit at Judgement Day with his whole alliance in the ghosts' seats, still voting his way."
+      },
       "strategy": 5,
       "strength": 5,
       "tagline": "Builds a family, demands loyalty, runs the vote."
@@ -475,9 +605,14 @@
         "strength",
         "grit"
       ],
+      "story": {
+        "softSpot": "Respect for the old ways. Hear one of her stories to the end and she'll carry your water.",
+        "story": "Sifu taught movement in a hillside studio for forty years and has a story for every scar. She lives by a code she wrote herself: say what you mean, keep your word, carry the heavy end. She picks one person to stand beside and stands there until the fire goes out. The War Zone keeps surprising people, because nobody expects the quiet one with the braid to finish first.",
+        "wants": "To be the last one standing without having broken a single promise."
+      },
       "strategy": 2,
       "strength": 7,
-      "tagline": "Honour code, tall tales, and better in the War Zone than he looks."
+      "tagline": "Honour code, tall tales, and better in the War Zone than she looks."
     },
     {
       "archetype": "Wildcard",
@@ -495,6 +630,11 @@
         "cunning",
         "strength"
       ],
+      "story": {
+        "softSpot": "Anyone who comes digging with him. Share a hunt and he'll share the shield.",
+        "story": "Digger spent his twenties prospecting dry riverbeds and found just enough to keep believing. He landed on the island with the same idea: there's a shield in every stretch of sand and it's his if he gets there first. He is gone from camp more than he is in it, and the camp notices. He burns bridges the way other people light fires: often, and for warmth.",
+        "wants": "To play a Secret Shield at the exact Mela they thought they had him."
+      },
       "strategy": 3,
       "strength": 3,
       "tagline": "Digs for shields all day and burns every bridge by night."
@@ -514,6 +654,11 @@
         "grit",
         "charm"
       ],
+      "story": {
+        "softSpot": "Someone who shares the cooking. Feed her and you've got a vote.",
+        "story": "Queenie raised four children in a two-room flat and has never lost an argument about chores. She came to the island with a single plan, anyone but me, and she says it out loud. She is last in every War Zone and first at every fire, and somehow her name is never the one on the ballots. People stop laughing around day nine.",
+        "wants": "To be the Last Castaway without winning a single Personal Shield."
+      },
       "strategy": 3,
       "strength": 2,
       "tagline": "Anyone but me. Bends with every wind and never breaks."
@@ -533,6 +678,11 @@
         "cunning",
         "strength"
       ],
+      "story": {
+        "softSpot": "A clean plan. Bring her a vote that adds up and she'll respect you, which from Rex is love.",
+        "story": "Rex drew up buildings for a living and treats the island like a site plan: load-bearing people, decorative people, and people in the way. She was the first on the island to say the word alliance out loud and has never pretended it was about friendship. She tells you exactly how she will use you, then does. The honesty is the unsettling part.",
+        "wants": "To build the alliance that walks to the end exactly as drawn, and be the one it was built for."
+      },
       "strategy": 5,
       "strength": 5,
       "tagline": "Invented the alliance and is cold and open about it."
@@ -552,6 +702,11 @@
         "charm",
         "cunning"
       ],
+      "story": {
+        "softSpot": "Being treated as the heart of camp rather than the brain. Underestimate her warmly and she'll let you.",
+        "story": "Mama Cee ran a corner shop where everyone told her everything, and she never told anyone anything back. She is the one who asks how you slept and remembers your answer, and she is also the one who decided, three days ago, who is going tonight. Nobody has ever seen her vote with the losing side. People say she's harmless; the people who said it are ghosts.",
+        "wants": "To steer every vote of the season without one of them being called her move."
+      },
       "strategy": 4,
       "strength": 1,
       "tagline": "Warm, underestimated, and running the vote from the shadows."
@@ -572,9 +727,14 @@
         "charm",
         "strength"
       ],
+      "story": {
+        "softSpot": "A secret given freely. Tell her something nobody else knows and she'll keep yours and spend someone else's.",
+        "story": "Felix fixed radios in a seaside town and listened to every frequency she wasn't supposed to. On the island she builds a hide in the jungle on day one and watches camp from it, and she tells different people different things to see where they travel. Nobody knows which of her stories is the true one, including, some nights, Felix. She plays for the thrill of knowing more than the room.",
+        "wants": "To find every Secret Shield on the beach before anyone knows they're there."
+      },
       "strategy": 5,
       "strength": 5,
-      "tagline": "A spy shack in the jungle. Nobody knows what he knows."
+      "tagline": "A hide in the jungle. Nobody knows what Felix knows."
     },
     {
       "archetype": "Challenge Beast",
@@ -592,6 +752,11 @@
         "strength",
         "charm"
       ],
+      "story": {
+        "softSpot": "A full belly for the camp. Thank her for the fish and she'll remember who said it.",
+        "story": "Marina swam before she walked and has lived most of her life on or under the water. Food, fire and the War Zone are her game; the whispering at camp bores her, and she makes no effort to hide it. She wins Personal Shields the way other people win arguments, and eventually that is all anyone can talk about. She plans to keep winning until there is nobody left to vote.",
+        "wants": "To win every Personal Shield from the Union to the end."
+      },
       "strategy": 2,
       "strength": 9,
       "tagline": "A War Zone monster with no time for the social game."
@@ -611,6 +776,11 @@
         "strength",
         "charm"
       ],
+      "story": {
+        "softSpot": "Talk about home. Ask about his kids and he'll have your back at the fire.",
+        "story": "Leo drives a long-haul route and keeps a photo of his kids on the dashboard; he keeps another in his pocket on the island. He plays for the people back home, says so often, and means it every time. He is the first to carry a load and the first to stand in front of a friend when the votes go bad. The camp loves him, which is exactly why it has to get rid of him.",
+        "wants": "To take someone he protected all the way to the final and lose to them gladly."
+      },
       "strategy": 3,
       "strength": 8,
       "tagline": "Plays for the people back home. Loyal, and a threat at the end."
@@ -630,6 +800,11 @@
         "charm",
         "cunning"
       ],
+      "story": {
+        "softSpot": "Trust offered first. Confide in her before she asks and she'll hold you closer than the others.",
+        "story": "Maya settles disputes between neighbours for a living and has never once raised her voice. On the island everyone feels she is their closest ally, and more than one of them is right. She never leads a charge, never makes a speech, and is never the threat anyone names until the day she is the only one left to name. Her whole game is run in the quiet.",
+        "wants": "To reach Judgement Day having been nobody's target, not once."
+      },
       "strategy": 4,
       "strength": 4,
       "tagline": "Smooth social control. Never seen as the threat until it's too late."
@@ -649,6 +824,11 @@
         "cunning",
         "charm"
       ],
+      "story": {
+        "softSpot": "Someone who laughs at the bad jokes too. Be his audience and you're in on the act.",
+        "story": "Rafa did stand-up in the back rooms of bars for ten years and learned that a laughing room never sees the punchline coming. He is loud, warm and apparently harmless, and he has counted every vote at camp twice before breakfast. The jokes are the cover; the plan underneath is sharp. He'd rather you laughed on the way out than hated him.",
+        "wants": "To pull the blindside of the season and have the camp still laughing when the torch goes out."
+      },
       "strategy": 4,
       "strength": 5,
       "tagline": "The jokes cover a sharp strategic mind."
@@ -668,6 +848,11 @@
         "charm",
         "cunning"
       ],
+      "story": {
+        "softSpot": "Being believed, just once, by someone who knows better.",
+        "story": "Slick sold timeshares, then sold the company that sold the timeshares, then left town. On the island Slick is everyone's favourite in the first week and nobody's by the third, because every story turns out to have a seam. The lies are small, cheerful and constant, and one of them will be the one that sends you home. Being feared, Slick says, is just being remembered.",
+        "wants": "To tell the lie that decides the season and get thanked for it."
+      },
       "strategy": 3,
       "strength": 4,
       "tagline": "The lie you never see coming. Fun at first, then feared."
@@ -687,6 +872,11 @@
         "strength",
         "charm"
       ],
+      "story": {
+        "softSpot": "Honest work. Help him haul the catch and you have a friend for the season.",
+        "story": "Bruno fished the cold coast for fifty years and never once sold a catch short. He loves the island the way he loves the sea, loudly and completely, and says what he thinks before he has finished thinking it. He will not vote against a friend, not to save himself, not for anything. The camp adores him, and the camp uses him, and he knows both.",
+        "wants": "To go the whole way without one lie and let the ghosts decide what that's worth."
+      },
       "strategy": 1,
       "strength": 7,
       "tagline": "Beloved, honest, loyal to a fault."
@@ -706,9 +896,14 @@
         "charm",
         "strength"
       ],
+      "story": {
+        "softSpot": "A good laugh at the fire. Keep her entertained and she's yours, until she isn't.",
+        "story": "Cal waited tables through university and could sell dessert to someone who had already paid. She makes friends across every camp in a day and keeps them laughing at the fire. She finds shields more often than most and plays them more often than she should, at the wrong Mela, for the wrong person, with a grin. She would rather make the big move and be wrong than sit still and be right.",
+        "wants": "To play a shield for someone else and have it be the one that saves them."
+      },
       "strategy": 3,
       "strength": 5,
-      "tagline": "Likeable schemer who over-plays his shields."
+      "tagline": "Likeable schemer who over-plays her shields."
     },
     {
       "archetype": "Underdog",
@@ -725,6 +920,11 @@
         "strength",
         "grit"
       ],
+      "story": {
+        "softSpot": "A real conversation about strategy. Take his notes seriously and he'll show you them.",
+        "story": "Pip has studied every season of every game like this one and has a notebook to prove it. He is nobody's first pick for a War Zone, which is why he trains at dawn before anyone wakes. He knows every move before it happens and freezes, sometimes, when it's his turn to make one. The camp underestimates the kid with the glasses, which is page one of the notebook.",
+        "wants": "To win a Personal Shield at the Mela where everyone had written his name."
+      },
       "strategy": 3,
       "strength": 6,
       "tagline": "A fan of the game who survives on War Zone runs."
@@ -744,6 +944,11 @@
         "strength",
         "cunning"
       ],
+      "story": {
+        "softSpot": "Being told the truth before he has worked it out himself.",
+        "story": "Kai refereed youth football for twenty years and can tell who fouled from the way they look at the ground. The camp calls him the Cop because he always knows who did it, and because he arrests nobody until the moment it pays. He rides with one side for exactly as long as it's winning, then switches, and he has never once switched too early. Loyal to the game, not to you.",
+        "wants": "To be on the right side of every vote of the season, whichever side that turns out to be."
+      },
       "strategy": 4,
       "strength": 6,
       "tagline": "Switches sides at the perfect moment."
@@ -763,6 +968,11 @@
         "cunning",
         "grit"
       ],
+      "story": {
+        "softSpot": "A clever question. Ask her something she hasn't thought of and you'll have her attention all day.",
+        "story": "Dev lectured in game theory until the department got tired of her being right. She came to the island to test the lectures and reports that the island, so far, agrees with her. A shield is a tool, a friendship is a term in an equation, and sentiment is a rounding error. She is colder than she means to be and more loyal than anyone expects, if the numbers allow it.",
+        "wants": "To hold a Secret Shield to the last night it can be played and never need it."
+      },
       "strategy": 5,
       "strength": 3,
       "tagline": "Rational. A shield is a tool, not a toy."
@@ -782,6 +992,11 @@
         "grit",
         "charm"
       ],
+      "story": {
+        "softSpot": "Someone who asks how he is doing. Nobody does.",
+        "story": "Sofia spent twenty years in a counselling room listening to people explain why they did what they did. He has gone to every Mela of his island life and is still here, because when the votes go wrong people come to him, and he listens. He does not win the War Zone and does not pretend to. He wins the long walk back to camp afterwards, one conversation at a time.",
+        "wants": "To reach the final having sat at every single fire."
+      },
       "strategy": 2,
       "strength": 2,
       "tagline": "Goes to every Mela and still wins."
@@ -801,6 +1016,11 @@
         "cunning",
         "strength"
       ],
+      "story": {
+        "softSpot": "Patience. Don't rush her, don't ask twice, and she'll tell you when it's time.",
+        "story": "Wren restores old clocks and knows that everything comes down to timing. She finds shields the way she finds a lost spring, by patience, and plays them the way she sets a clock, at the exact right second. Three times in her island life she has rewritten a night with a single shield, and she is counting on a fourth. She keeps her plans in her head and her shields in her boot.",
+        "wants": "To play a Secret Shield on the night it sends the one who wrote her name home instead."
+      },
       "strategy": 4,
       "strength": 5,
       "tagline": "Shield plays that rewrite the night."
@@ -820,6 +1040,11 @@
         "charm",
         "grit"
       ],
+      "story": {
+        "softSpot": "A quiet word away from the fire. He'd rather talk to one person than ten.",
+        "story": "Rosa spent his career translating between people who would rather not have spoken at all. On the island he sits with every camp, agrees with all of them a little, and goes to bed liked by everyone. He is almost never the target because, as far as anyone can tell, he's never the problem. Whether he has a plan of his own is a question nobody has thought to ask.",
+        "wants": "To reach Judgement Day with a ghost from every side who still thinks he was theirs."
+      },
       "strategy": 2,
       "strength": 5,
       "tagline": "Keeps every side talking and is rarely the target."
@@ -840,11 +1065,16 @@
         "charm",
         "cunning"
       ],
+      "story": {
+        "softSpot": "Kindness in the small things. Save her a seat and she'll save you a vote, right up to the night she can't.",
+        "story": "Lena taught primary school and still has the patience to prove it. She is everyone's friend by the end of day one, honestly, and she means every hug. At the Mela, though, she votes with her alliance, and if you were a friend outside it, well, it's a game, and she'll cry about it later. The crying is real too.",
+        "wants": "To get to the end with her closest friend beside her and win anyway."
+      },
       "strategy": 2,
       "strength": 3,
       "tagline": "Everyone's friend, until the vote."
     }
   ],
   "schemaVersion": 1,
-  "version": "2026-10-06.1"
+  "version": "2026-10-06.2"
 }
