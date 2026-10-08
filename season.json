@@ -202,7 +202,7 @@
   ],
   "host": {
     "softSpot": "A good story at the fire. He'll hold the ballots a moment longer for one.",
-    "story": "Hollis has hosted the island for longer than anyone can quite work out. He runs the War Zone, keeps the fire at the Mela, and reads every ballot in the voter's own handwriting. He has seen every kind of player there is and claims to have a favourite, though he has never once said who. He takes no sides. Probably.",
+    "story": "Hollis has run the island for longer than anyone can quite work out. He runs the War Zone, keeps the fire at the Mela, and reads every ballot in the voter's own handwriting. The old ones say he was the heron on the bow of the boat and the first to stand up on two legs; he has never confirmed it, and he has never once been seen on all fours. He takes no sides. Probably.",
     "wants": "A season nobody saw coming."
   },
   "islanders": [
@@ -211,6 +211,7 @@
       "emoji": "🦊",
       "id": "nia",
       "name": "Nia",
+      "pronoun": "she",
       "role": "The Fox",
       "story": {
         "softSpot": "Someone who hums along.",
@@ -224,6 +225,7 @@
       "emoji": "🐻",
       "id": "theo",
       "name": "Theo",
+      "pronoun": "he",
       "role": "The Bear",
       "story": {
         "softSpot": "Breakfast. Bring it and you're forgiven for anything.",
@@ -237,6 +239,7 @@
       "emoji": "🦉",
       "id": "priya",
       "name": "Priya",
+      "pronoun": "she",
       "role": "The Owl",
       "story": {
         "softSpot": "A sunrise shared in silence.",
@@ -250,6 +253,7 @@
       "emoji": "🐺",
       "id": "jonah",
       "name": "Jonah",
+      "pronoun": "he",
       "role": "The Wolf",
       "story": {
         "softSpot": "Someone who sits with him and doesn't fill the quiet.",
@@ -263,6 +267,7 @@
       "emoji": "🦋",
       "id": "ivy",
       "name": "Ivy",
+      "pronoun": "she",
       "role": "The Butterfly",
       "story": {
         "softSpot": "A shell she hasn't got. Bring her one and you've got a friend.",
@@ -276,6 +281,7 @@
       "emoji": "🦁",
       "id": "marcus",
       "name": "Marcus",
+      "pronoun": "he",
       "role": "The Lion",
       "story": {
         "softSpot": "An audience. Laugh at the second telling and he'll fight for you.",
@@ -289,6 +295,7 @@
       "emoji": "🐬",
       "id": "isla",
       "name": "Isla",
+      "pronoun": "she",
       "role": "The Dolphin",
       "story": {
         "softSpot": "A swim at dawn. Join her once and she'll tell you things on the way back.",
@@ -302,6 +309,7 @@
       "emoji": "🦈",
       "id": "tomas",
       "name": "Tomas",
+      "pronoun": "he",
       "role": "The Shark",
       "story": {
         "softSpot": "Calm. He trusts the ones who don't flinch when he looks at them.",
@@ -315,6 +323,7 @@
       "emoji": "🦅",
       "id": "amara",
       "name": "Amara",
+      "pronoun": "she",
       "role": "The Eagle",
       "story": {
         "softSpot": "The high ground. Climb up to her instead of calling her down.",
@@ -328,6 +337,7 @@
       "emoji": "🐢",
       "id": "eva",
       "name": "Eva",
+      "pronoun": "she",
       "role": "The Turtle",
       "story": {
         "softSpot": "Patience. Wait for her answer and it'll be worth it.",
@@ -341,6 +351,7 @@
       "emoji": "🐝",
       "id": "zara",
       "name": "Zara",
+      "pronoun": "she",
       "role": "The Bee",
       "story": {
         "softSpot": "Help without being asked. Pick up the other end of the log.",
@@ -354,6 +365,7 @@
       "emoji": "🦝",
       "id": "ruben",
       "name": "Ruben",
+      "pronoun": "he",
       "role": "The Raccoon",
       "story": {
         "softSpot": "A trade. Offer him something and you've got his ear, and possibly your things back.",
@@ -367,6 +379,7 @@
       "emoji": "🕷️",
       "id": "benji",
       "name": "Benji",
+      "pronoun": "he",
       "role": "The Spider",
       "story": {
         "softSpot": "Wearing the hat. It matters to him more than he'll say.",
@@ -380,6 +393,7 @@
       "emoji": "🦢",
       "id": "hana",
       "name": "Hana",
+      "pronoun": "she",
       "role": "The Crane",
       "story": {
         "softSpot": "Joining the dawn stretch. Show up once, badly, and she'll adopt you.",
@@ -393,6 +407,7 @@
       "emoji": "🐹",
       "id": "ollie",
       "name": "Ollie",
+      "pronoun": "he",
       "role": "The Mole",
       "story": {
         "softSpot": "Being guided without being teased. Take his arm.",
@@ -406,6 +421,7 @@
       "emoji": "🐊",
       "id": "gus",
       "name": "Gus",
+      "pronoun": "he",
       "role": "The Crocodile",
       "story": {
         "softSpot": "Hearing the story again. Ask about the fish.",
@@ -419,6 +435,7 @@
       "emoji": "🐀",
       "id": "mabel",
       "name": "Mabel",
+      "pronoun": "she",
       "role": "The Possum",
       "story": {
         "softSpot": "A warm spot by the fire and not being woken.",
@@ -432,6 +449,7 @@
       "emoji": "🐵",
       "id": "jude",
       "name": "Jude",
+      "pronoun": "he",
       "role": "The Monkey",
       "story": {
         "softSpot": "Mischief shared. Catch a coconut and throw one back.",
@@ -445,6 +463,7 @@
       "emoji": "🦡",
       "id": "sal",
       "name": "Sal",
+      "pronoun": "they",
       "role": "The Weasel",
       "story": {
         "softSpot": "Being listened to, all the way to the end of the sentence.",
@@ -458,6 +477,7 @@
       "emoji": "🦦",
       "id": "dani",
       "name": "Dani",
+      "pronoun": "she",
       "role": "The Otter",
       "story": {
         "softSpot": "A shared meal, especially one she didn't catch.",
@@ -471,6 +491,7 @@
       "emoji": "🐿️",
       "id": "milo",
       "name": "Milo",
+      "pronoun": "he",
       "role": "The Meerkat",
       "story": {
         "softSpot": "Being told it's going to be fine, by someone who means it.",
@@ -484,6 +505,7 @@
       "emoji": "🦅",
       "id": "ash",
       "name": "Ash",
+      "pronoun": "they",
       "role": "The Hawk",
       "story": {
         "softSpot": "Fairness. Pull your weight and Ash will say so, loudly.",
@@ -495,7 +517,7 @@
   ],
   "newcomer": {
     "softSpot": "Whatever you let them see.",
-    "story": "You arrived with the tide and no reputation. Nobody on the island knows what kind of player you are, which for one season is the best card you will ever hold. Every camp has a plan for the Legends. Nobody has a plan for you. Yet.",
+    "story": "You came off the boat with the rest of them, still on all fours, with no name worth remembering. The island has a plan for every Legend. Nobody has a plan for you. Whatever you are by the time the last fire goes out, you'll have become it here, one choice at a time.",
     "wants": "The last flame on the island."
   },
   "offers": {
@@ -552,6 +574,7 @@
       "id": "vespa",
       "loyalty": 1,
       "name": "Vespa",
+      "pronoun": "she",
       "role": "The Black Widow",
       "spending": [
         "charm",
@@ -559,7 +582,7 @@
       ],
       "story": {
         "softSpot": "A straight answer. Tell her the truth when a lie would be easier and she remembers it.",
-        "story": "Vespa grew up in the back of her parents' pawnshop, learning what people will say when they want something. She has never lost a game of cards she cared about, and she cares about all of them. On the island she makes one close friend at a time and stays close right up to the night she needs their seat. She would tell you it isn't personal; the friends disagree.",
+        "story": "Vespa spun her first web in the boat's rigging and ate the moths that trusted it. She turned the night she promised her closest friend a seat by the fire and wrote the name down anyway; by morning she had hands. She has never lost a game of cards she cared about, and she cares about all of them. She would tell you it isn't personal; the friends disagree.",
         "wants": "To win without ever having her own name written down."
       },
       "strategy": 4,
@@ -576,6 +599,7 @@
       "id": "don",
       "loyalty": 4,
       "name": "Don",
+      "pronoun": "he",
       "role": "The Godfather",
       "spending": [
         "cunning",
@@ -583,7 +607,7 @@
       ],
       "story": {
         "softSpot": "Being asked for advice. Come to him first and you're family.",
-        "story": "Don ran a family kitchen for thirty years and never once let a cook quit without a hug. He believes a camp is a family and a family has a head, and he intends to be it. He gives loyalty before he asks for it, and then he asks for all of it. Cross him and he doesn't shout; he simply counts the votes without you.",
+        "story": "Don circled the boat the whole crossing and came ashore last, so he could see who had made it. He turned the day he built the island's first family and cast out the one who asked why he was the head of it. He gives loyalty before he asks for it, and then he asks for all of it. Cross him and he doesn't shout; he simply counts the votes without you.",
         "wants": "To sit at Judgement Day with his whole alliance in the ghosts' seats, still voting his way."
       },
       "strategy": 5,
@@ -600,6 +624,7 @@
       "id": "sifu",
       "loyalty": 5,
       "name": "Sifu",
+      "pronoun": "she",
       "role": "The Master",
       "spending": [
         "strength",
@@ -607,7 +632,7 @@
       ],
       "story": {
         "softSpot": "Respect for the old ways. Hear one of her stories to the end and she'll carry your water.",
-        "story": "Sifu taught movement in a hillside studio for forty years and has a story for every scar. She lives by a code she wrote herself: say what you mean, keep your word, carry the heavy end. She picks one person to stand beside and stands there until the fire goes out. The War Zone keeps surprising people, because nobody expects the quiet one with the braid to finish first.",
+        "story": "Sifu stood on one leg on the bow for the whole crossing and has a story for every wave. She was the last of her season to turn, and she turned for a friend: she broke her word once, to keep someone else's torch lit, and woke with hands and a braid. She lives by a code she wrote herself: say what you mean, keep your word, carry the heavy end. The War Zone keeps surprising people, because nobody expects the quiet one with the braid to finish first.",
         "wants": "To be the last one standing without having broken a single promise."
       },
       "strategy": 2,
@@ -624,6 +649,7 @@
       "id": "digger",
       "loyalty": 1,
       "name": "Digger",
+      "pronoun": "he",
       "role": "The Shield Hunter",
       "spending": [
         "cunning",
@@ -632,7 +658,7 @@
       ],
       "story": {
         "softSpot": "Anyone who comes digging with him. Share a hunt and he'll share the shield.",
-        "story": "Digger spent his twenties prospecting dry riverbeds and found just enough to keep believing. He landed on the island with the same idea: there's a shield in every stretch of sand and it's his if he gets there first. He is gone from camp more than he is in it, and the camp notices. He burns bridges the way other people light fires: often, and for warmth.",
+        "story": "Digger came up through the boat's hull somewhere mid-crossing and nobody ever found the hole. He turned the morning he dug up a Secret Shield with three friends watching and told them the hole was empty. He is gone from camp more than he is in it, and the camp notices. He burns bridges the way other people light fires: often, and for warmth.",
         "wants": "To play a Secret Shield at the exact Mela they thought they had him."
       },
       "strategy": 3,
@@ -649,6 +675,7 @@
       "id": "queenie",
       "loyalty": 3,
       "name": "Queenie",
+      "pronoun": "she",
       "role": "The Queen",
       "spending": [
         "grit",
@@ -656,7 +683,7 @@
       ],
       "story": {
         "softSpot": "Someone who shares the cooking. Feed her and you've got a vote.",
-        "story": "Queenie raised four children in a two-room flat and has never lost an argument about chores. She came to the island with a single plan, anyone but me, and she says it out loud. She is last in every War Zone and first at every fire, and somehow her name is never the one on the ballots. People stop laughing around day nine.",
+        "story": "Queenie ran the hive on the boat's roof and has never lost an argument about chores. She turned slowly, one small vote at a time, each of them for the good of the hive and none of them for her: anyone but me, and she says it out loud. She is last in every War Zone and first at every fire, and somehow her name is never the one on the ballots. People stop laughing around day nine.",
         "wants": "To be the Last Castaway without winning a single Personal Shield."
       },
       "strategy": 3,
@@ -672,15 +699,16 @@
       "grit": 4,
       "id": "rex",
       "loyalty": 2,
-      "name": "Rex",
+      "name": "Rhea",
+      "pronoun": "she",
       "role": "The Architect",
       "spending": [
         "cunning",
         "strength"
       ],
       "story": {
-        "softSpot": "A clean plan. Bring her a vote that adds up and she'll respect you, which from Rex is love.",
-        "story": "Rex drew up buildings for a living and treats the island like a site plan: load-bearing people, decorative people, and people in the way. She was the first on the island to say the word alliance out loud and has never pretended it was about friendship. She tells you exactly how she will use you, then does. The honesty is the unsettling part.",
+        "softSpot": "A clean plan. Bring her a vote that adds up and she'll respect you, which from Rhea is love.",
+        "story": "Rhea lay in the bilge the whole crossing, perfectly still, and knew the weight of everyone on board. She turned the day she said the word alliance out loud, the first anyone had heard it, and drew up who was load-bearing and who was in the way. She tells you exactly how she will use you, then does. The honesty is the unsettling part.",
         "wants": "To build the alliance that walks to the end exactly as drawn, and be the one it was built for."
       },
       "strategy": 5,
@@ -696,16 +724,17 @@
       "grit": 5,
       "id": "mamacee",
       "loyalty": 3,
-      "name": "Mama Cee",
+      "name": "Uncle Cee",
+      "pronoun": "he",
       "role": "The Whisperer",
       "spending": [
         "charm",
         "cunning"
       ],
       "story": {
-        "softSpot": "Being treated as the heart of camp rather than the brain. Underestimate her warmly and she'll let you.",
-        "story": "Mama Cee ran a corner shop where everyone told her everything, and she never told anyone anything back. She is the one who asks how you slept and remembers your answer, and she is also the one who decided, three days ago, who is going tonight. Nobody has ever seen her vote with the losing side. People say she's harmless; the people who said it are ghosts.",
-        "wants": "To steer every vote of the season without one of them being called her move."
+        "softSpot": "Being treated as the heart of camp rather than the brain. Underestimate him warmly and he'll let you.",
+        "story": "Uncle Cee slept through the crossing in a coil of rope, or seemed to, and could tell you afterwards who had whispered what to whom. He turned without anyone noticing, which is the only way he does anything: the vote he steered went through, and the one it sent home thanked him on the way out. He asks how you slept and remembers the answer, and he decided three days ago who is going tonight. People say he's harmless; the people who said it are ghosts.",
+        "wants": "To steer every vote of the season without one of them being called his move."
       },
       "strategy": 4,
       "strength": 1,
@@ -720,7 +749,8 @@
       "grit": 3,
       "id": "felix",
       "loyalty": 2,
-      "name": "Felix",
+      "name": "Flick",
+      "pronoun": "she",
       "role": "The Spy",
       "spending": [
         "cunning",
@@ -729,12 +759,12 @@
       ],
       "story": {
         "softSpot": "A secret given freely. Tell her something nobody else knows and she'll keep yours and spend someone else's.",
-        "story": "Felix fixed radios in a seaside town and listened to every frequency she wasn't supposed to. On the island she builds a hide in the jungle on day one and watches camp from it, and she tells different people different things to see where they travel. Nobody knows which of her stories is the true one, including, some nights, Felix. She plays for the thrill of knowing more than the room.",
+        "story": "Flick got into every crate on the boat and put the lids back exactly as she found them. She turned in a hide in the jungle, telling three people three different stories to see where each one travelled; when the third came back to her she had freckles and hands. Nobody knows which of her stories is the true one, including, some nights, Flick. She plays for the thrill of knowing more than the room.",
         "wants": "To find every Secret Shield on the beach before anyone knows they're there."
       },
       "strategy": 5,
       "strength": 5,
-      "tagline": "A hide in the jungle. Nobody knows what Felix knows."
+      "tagline": "A hide in the jungle. Nobody knows what Flick knows."
     },
     {
       "archetype": "Challenge Beast",
@@ -746,6 +776,7 @@
       "id": "marina",
       "loyalty": 3,
       "name": "Marina",
+      "pronoun": "she",
       "role": "The Fish",
       "spending": [
         "strength",
@@ -754,7 +785,7 @@
       ],
       "story": {
         "softSpot": "A full belly for the camp. Thank her for the fish and she'll remember who said it.",
-        "story": "Marina swam before she walked and has lived most of her life on or under the water. Food, fire and the War Zone are her game; the whispering at camp bores her, and she makes no effort to hide it. She wins Personal Shields the way other people win arguments, and eventually that is all anyone can talk about. She plans to keep winning until there is nobody left to vote.",
+        "story": "Marina swam the whole way beside the boat and was waiting on the beach when it landed. She turned late and reluctantly, the night the camp cast out the one who had kept them fed and she let it happen because the numbers said so; she says she still doesn't like it. Food, fire and the War Zone are her game; the whispering at camp bores her, and she makes no effort to hide it. She plans to keep winning until there is nobody left to vote.",
         "wants": "To win every Personal Shield from the Union to the end."
       },
       "strategy": 2,
@@ -771,14 +802,15 @@
       "id": "leo",
       "loyalty": 4,
       "name": "Leo",
+      "pronoun": "he",
       "role": "The Protector",
       "spending": [
         "strength",
         "charm"
       ],
       "story": {
-        "softSpot": "Talk about home. Ask about his kids and he'll have your back at the fire.",
-        "story": "Leo drives a long-haul route and keeps a photo of his kids on the dashboard; he keeps another in his pocket on the island. He plays for the people back home, says so often, and means it every time. He is the first to carry a load and the first to stand in front of a friend when the votes go bad. The camp loves him, which is exactly why it has to get rid of him.",
+        "softSpot": "Talk about home. Ask about the ones he came with and he'll have your back at the fire.",
+        "story": "Leo stood at the front of the boat and roared at the storm, and the storm gave up first. He turned protecting someone: he stood in front of a friend when the votes went bad and wrote down the name of another friend to do it. He plays for the ones he carried off the boat, says so often, and means it every time. The camp loves him, which is exactly why it has to get rid of him.",
         "wants": "To take someone he protected all the way to the final and lose to them gladly."
       },
       "strategy": 3,
@@ -795,6 +827,7 @@
       "id": "maya",
       "loyalty": 3,
       "name": "Maya",
+      "pronoun": "she",
       "role": "The Operator",
       "spending": [
         "charm",
@@ -802,7 +835,7 @@
       ],
       "story": {
         "softSpot": "Trust offered first. Confide in her before she asks and she'll hold you closer than the others.",
-        "story": "Maya settles disputes between neighbours for a living and has never once raised her voice. On the island everyone feels she is their closest ally, and more than one of them is right. She never leads a charge, never makes a speech, and is never the threat anyone names until the day she is the only one left to name. Her whole game is run in the quiet.",
+        "story": "Maya was everyone's favourite on the boat and nobody could say exactly why. She turned so quietly that even the island isn't sure which vote did it; everyone at camp feels she is their closest ally, and more than one of them is right. She never leads a charge, never makes a speech, and is never the threat anyone names until the day she is the only one left to name. Her whole game is run in the quiet.",
         "wants": "To reach Judgement Day having been nobody's target, not once."
       },
       "strategy": 4,
@@ -819,6 +852,7 @@
       "id": "rafa",
       "loyalty": 2,
       "name": "Rafa",
+      "pronoun": "he",
       "role": "The Joker",
       "spending": [
         "cunning",
@@ -826,7 +860,7 @@
       ],
       "story": {
         "softSpot": "Someone who laughs at the bad jokes too. Be his audience and you're in on the act.",
-        "story": "Rafa did stand-up in the back rooms of bars for ten years and learned that a laughing room never sees the punchline coming. He is loud, warm and apparently harmless, and he has counted every vote at camp twice before breakfast. The jokes are the cover; the plan underneath is sharp. He'd rather you laughed on the way out than hated him.",
+        "story": "Rafa kept the whole boat laughing through the crossing and stole the rations while they laughed. He turned the night he pulled the island's first blindside with a grin: the camp was still laughing when the torch went out, and in the morning the grin had a face around it. He is loud, warm and apparently harmless, and he has counted every vote at camp twice before breakfast. He'd rather you laughed on the way out than hated him.",
         "wants": "To pull the blindside of the season and have the camp still laughing when the torch goes out."
       },
       "strategy": 4,
@@ -843,6 +877,7 @@
       "id": "slick",
       "loyalty": 1,
       "name": "Slick",
+      "pronoun": "they",
       "role": "The Liar",
       "spending": [
         "charm",
@@ -850,7 +885,7 @@
       ],
       "story": {
         "softSpot": "Being believed, just once, by someone who knows better.",
-        "story": "Slick sold timeshares, then sold the company that sold the timeshares, then left town. On the island Slick is everyone's favourite in the first week and nobody's by the third, because every story turns out to have a seam. The lies are small, cheerful and constant, and one of them will be the one that sends you home. Being feared, Slick says, is just being remembered.",
+        "story": "Nobody remembers Slick on the boat, which Slick says proves the point. Slick turned on a lie so small that nobody caught it, then on the next, and by the end of the first week was the only one at camp standing fully upright. Everyone's favourite in the first week and nobody's by the third, because every story turns out to have a seam. Being feared, Slick says, is just being remembered.",
         "wants": "To tell the lie that decides the season and get thanked for it."
       },
       "strategy": 3,
@@ -867,6 +902,7 @@
       "id": "bruno",
       "loyalty": 5,
       "name": "Bruno",
+      "pronoun": "he",
       "role": "The Pirate",
       "spending": [
         "strength",
@@ -874,7 +910,7 @@
       ],
       "story": {
         "softSpot": "Honest work. Help him haul the catch and you have a friend for the season.",
-        "story": "Bruno fished the cold coast for fifty years and never once sold a catch short. He loves the island the way he loves the sea, loudly and completely, and says what he thinks before he has finished thinking it. He will not vote against a friend, not to save himself, not for anything. The camp adores him, and the camp uses him, and he knows both.",
+        "story": "Bruno carried half the boat ashore on his back and never mentioned it again. He was the last of his season still on four legs; what stood him up was the one night he voted the way his family asked instead of the way he felt, and he woke up ashamed and taller. He says what he thinks before he has finished thinking it. The camp adores him, and the camp uses him, and he knows both.",
         "wants": "To go the whole way without one lie and let the ghosts decide what that's worth."
       },
       "strategy": 1,
@@ -890,7 +926,8 @@
       "grit": 2,
       "id": "cal",
       "loyalty": 2,
-      "name": "Cal",
+      "name": "Callie",
+      "pronoun": "she",
       "role": "The Charmer",
       "spending": [
         "charm",
@@ -898,7 +935,7 @@
       ],
       "story": {
         "softSpot": "A good laugh at the fire. Keep her entertained and she's yours, until she isn't.",
-        "story": "Cal waited tables through university and could sell dessert to someone who had already paid. She makes friends across every camp in a day and keeps them laughing at the fire. She finds shields more often than most and plays them more often than she should, at the wrong Mela, for the wrong person, with a grin. She would rather make the big move and be wrong than sit still and be right.",
+        "story": "Callie slid off the boat before it had stopped moving and had friends on the beach by sunset. She turned with a shield in her hand: she played it at the wrong Mela, for the wrong person, with a grin, and the laugh she got for it was a human one. She makes friends across every camp in a day and keeps them laughing at the fire. She would rather make the big move and be wrong than sit still and be right.",
         "wants": "To play a shield for someone else and have it be the one that saves them."
       },
       "strategy": 3,
@@ -915,6 +952,7 @@
       "id": "pip",
       "loyalty": 3,
       "name": "Pip",
+      "pronoun": "he",
       "role": "The Student",
       "spending": [
         "strength",
@@ -922,7 +960,7 @@
       ],
       "story": {
         "softSpot": "A real conversation about strategy. Take his notes seriously and he'll show you them.",
-        "story": "Pip has studied every season of every game like this one and has a notebook to prove it. He is nobody's first pick for a War Zone, which is why he trains at dawn before anyone wakes. He knows every move before it happens and freezes, sometimes, when it's his turn to make one. The camp underestimates the kid with the glasses, which is page one of the notebook.",
+        "story": "Pip kept watch on the boat's rail every night of the crossing and wrote down everything he saw. He turned in his notebook before he turned in the flesh: he had every move of the island worked out from the old stories, and the day one of his predictions came true, so did he. He is nobody's first pick for a War Zone, which is why he trains at dawn before anyone wakes. The camp underestimates the kid with the glasses, which is page one of the notebook.",
         "wants": "To win a Personal Shield at the Mela where everyone had written his name."
       },
       "strategy": 3,
@@ -939,6 +977,7 @@
       "id": "kai",
       "loyalty": 2,
       "name": "Kai",
+      "pronoun": "he",
       "role": "The Cop",
       "spending": [
         "strength",
@@ -946,7 +985,7 @@
       ],
       "story": {
         "softSpot": "Being told the truth before he has worked it out himself.",
-        "story": "Kai refereed youth football for twenty years and can tell who fouled from the way they look at the ground. The camp calls him the Cop because he always knows who did it, and because he arrests nobody until the moment it pays. He rides with one side for exactly as long as it's winning, then switches, and he has never once switched too early. Loyal to the game, not to you.",
+        "story": "Kai ran with the pack on the boat and left it the moment the pack stopped winning. He turned on a switch: he crossed to the other side of a vote at the exact right moment, and when the torch went out he was standing on two feet on the winning side. The camp calls him the Cop because he always knows who did it, and arrests nobody until the moment it pays. Loyal to the game, not to you.",
         "wants": "To be on the right side of every vote of the season, whichever side that turns out to be."
       },
       "strategy": 4,
@@ -962,7 +1001,8 @@
       "grit": 4,
       "id": "dev",
       "loyalty": 3,
-      "name": "Dev",
+      "name": "Devi",
+      "pronoun": "she",
       "role": "The Professor",
       "spending": [
         "cunning",
@@ -970,7 +1010,7 @@
       ],
       "story": {
         "softSpot": "A clever question. Ask her something she hasn't thought of and you'll have her attention all day.",
-        "story": "Dev lectured in game theory until the department got tired of her being right. She came to the island to test the lectures and reports that the island, so far, agrees with her. A shield is a tool, a friendship is a term in an equation, and sentiment is a rounding error. She is colder than she means to be and more loyal than anyone expects, if the numbers allow it.",
+        "story": "Devi watched the whole crossing from the mast and had the odds of landing worked out before anyone else had noticed the storm. She turned on an equation: a friendship was a term in it, and the day the numbers said to drop the term she did, and the island gave her hands to write it down. A shield is a tool, and sentiment is a rounding error. She is colder than she means to be and more loyal than anyone expects, if the numbers allow it.",
         "wants": "To hold a Secret Shield to the last night it can be played and never need it."
       },
       "strategy": 5,
@@ -986,7 +1026,8 @@
       "grit": 9,
       "id": "sofia",
       "loyalty": 4,
-      "name": "Sofia",
+      "name": "Samir",
+      "pronoun": "he",
       "role": "The Therapist",
       "spending": [
         "grit",
@@ -994,7 +1035,7 @@
       ],
       "story": {
         "softSpot": "Someone who asks how he is doing. Nobody does.",
-        "story": "Sofia spent twenty years in a counselling room listening to people explain why they did what they did. He has gone to every Mela of his island life and is still here, because when the votes go wrong people come to him, and he listens. He does not win the War Zone and does not pretend to. He wins the long walk back to camp afterwards, one conversation at a time.",
+        "story": "Samir came off the boat last and slowest and is still here long after everyone who laughed about it. He turned by listening: when the votes went wrong people came to him, and he learned that the one who hears every secret is the one who decides what they're worth. He does not win the War Zone and does not pretend to. He wins the long walk back to camp afterwards, one conversation at a time.",
         "wants": "To reach the final having sat at every single fire."
       },
       "strategy": 2,
@@ -1011,6 +1052,7 @@
       "id": "wren",
       "loyalty": 2,
       "name": "Wren",
+      "pronoun": "she",
       "role": "The Shield Queen",
       "spending": [
         "cunning",
@@ -1018,7 +1060,7 @@
       ],
       "story": {
         "softSpot": "Patience. Don't rush her, don't ask twice, and she'll tell you when it's time.",
-        "story": "Wren restores old clocks and knows that everything comes down to timing. She finds shields the way she finds a lost spring, by patience, and plays them the way she sets a clock, at the exact right second. Three times in her island life she has rewritten a night with a single shield, and she is counting on a fourth. She keeps her plans in her head and her shields in her boot.",
+        "story": "Wren circled the boat for the whole crossing and knew where every rat on it was. She turned with a shield in her boot: she held it through three Melas, played it on the fourth at the exact right second, and sent home the one who had written her name; when the ballots burned she had fingers. She keeps her plans in her head and her shields in her boot. Everything comes down to timing.",
         "wants": "To play a Secret Shield on the night it sends the one who wrote her name home instead."
       },
       "strategy": 4,
@@ -1034,7 +1076,8 @@
       "grit": 5,
       "id": "rosa",
       "loyalty": 4,
-      "name": "Rosa",
+      "name": "Roland",
+      "pronoun": "he",
       "role": "The Diplomat",
       "spending": [
         "charm",
@@ -1042,7 +1085,7 @@
       ],
       "story": {
         "softSpot": "A quiet word away from the fire. He'd rather talk to one person than ten.",
-        "story": "Rosa spent his career translating between people who would rather not have spoken at all. On the island he sits with every camp, agrees with all of them a little, and goes to bed liked by everyone. He is almost never the target because, as far as anyone can tell, he's never the problem. Whether he has a plan of his own is a question nobody has thought to ask.",
+        "story": "Roland perched above the deck and heard every argument on the boat without joining one. He turned the way he does everything, from the middle: he agreed with every camp a little, went to bed liked by all of them, and woke the morning after his first Union with a waistcoat and reading glasses. He is almost never the target because, as far as anyone can tell, he's never the problem. Whether he has a plan of his own is a question nobody has thought to ask.",
         "wants": "To reach Judgement Day with a ghost from every side who still thinks he was theirs."
       },
       "strategy": 2,
@@ -1059,6 +1102,7 @@
       "id": "lena",
       "loyalty": 3,
       "name": "Lena",
+      "pronoun": "she",
       "role": "The Sweetheart",
       "spending": [
         "charm",
@@ -1067,7 +1111,7 @@
       ],
       "story": {
         "softSpot": "Kindness in the small things. Save her a seat and she'll save you a vote, right up to the night she can't.",
-        "story": "Lena taught primary school and still has the patience to prove it. She is everyone's friend by the end of day one, honestly, and she means every hug. At the Mela, though, she votes with her alliance, and if you were a friend outside it, well, it's a game, and she'll cry about it later. The crying is real too.",
+        "story": "Lena landed on the boat's rail somewhere mid-ocean and nobody had the heart to shoo her off. She turned with tears in her eyes: she voted with her alliance against a friend outside it, cried about it afterwards, and found she had a face to cry with. She is everyone's friend by the end of day one, honestly, and she means every hug. At the Mela, though, it's a game, and the crying is real too.",
         "wants": "To get to the end with her closest friend beside her and win anyway."
       },
       "strategy": 2,
@@ -1076,5 +1120,9 @@
     }
   ],
   "schemaVersion": 1,
-  "version": "2026-10-06.2"
+  "unlocks": {
+    "legendPrice": 3,
+    "perSeason": 1
+  },
+  "version": "2026-10-08.1"
 }
