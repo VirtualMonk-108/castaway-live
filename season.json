@@ -11,6 +11,390 @@
     "temptation": 1.2,
     "tightHeat": 0.8
   },
+  "cards": [
+    {
+      "art": "card-shareMeal",
+      "builtIn": true,
+      "effects": [
+        {
+          "kind": "bond",
+          "n": 1,
+          "who": "mutual"
+        }
+      ],
+      "id": "shareMeal",
+      "name": "Share a Meal",
+      "rarity": "common",
+      "symbol": "fork.knife",
+      "target": "other",
+      "timing": "camp",
+      "uses": 1,
+      "words": {
+        "play": "+1 bond with one castaway."
+      }
+    },
+    {
+      "art": "card-heartToHeart",
+      "builtIn": true,
+      "effects": [
+        {
+          "kind": "bond",
+          "n": 2,
+          "who": "mutual"
+        },
+        {
+          "kind": "bond",
+          "n": -1,
+          "who": "others"
+        }
+      ],
+      "id": "heartToHeart",
+      "name": "Heart to Heart",
+      "rarity": "common",
+      "symbol": "heart.fill",
+      "target": "other",
+      "timing": "camp",
+      "uses": 1,
+      "words": {
+        "play": "+2 bond with one castaway, but someone else feels left out (−1)."
+      }
+    },
+    {
+      "art": "card-whisper",
+      "builtIn": true,
+      "effects": [
+        {
+          "kind": "reveal",
+          "what": "target.plan"
+        },
+        {
+          "kind": "learn",
+          "what": "kind"
+        }
+      ],
+      "id": "whisper",
+      "name": "Whisper",
+      "rarity": "common",
+      "symbol": "ear.fill",
+      "target": "other",
+      "timing": "camp",
+      "uses": 1,
+      "words": {
+        "play": "Learn who one castaway plans to vote for tonight, and what kind of player they are."
+      }
+    },
+    {
+      "art": "card-eavesdrop",
+      "builtIn": true,
+      "effects": [
+        {
+          "kind": "reveal",
+          "what": "camp.hunters"
+        }
+      ],
+      "id": "eavesdrop",
+      "name": "Eavesdrop",
+      "rarity": "common",
+      "symbol": "waveform",
+      "target": "none",
+      "timing": "camp",
+      "uses": 1,
+      "words": {
+        "play": "Learn how many people are targeting you, and one of their names."
+      }
+    },
+    {
+      "art": "card-rumour",
+      "builtIn": true,
+      "effects": [
+        {
+          "kind": "rumour",
+          "who": "target"
+        }
+      ],
+      "id": "rumour",
+      "name": "Spread a Rumour",
+      "rarity": "common",
+      "symbol": "bubble.left.and.bubble.right.fill",
+      "target": "other",
+      "timing": "camp",
+      "uses": 1,
+      "words": {
+        "play": "Everyone who trusts you leans toward voting for the castaway you name."
+      }
+    },
+    {
+      "art": "card-bluff",
+      "builtIn": true,
+      "effects": [
+        {
+          "kind": "bluff"
+        }
+      ],
+      "id": "bluff",
+      "name": "Bluff",
+      "rarity": "common",
+      "symbol": "theatermasks.fill",
+      "target": "two",
+      "timing": "camp",
+      "uses": 1,
+      "words": {
+        "play": "Tell someone that a castaway is after them, true or not. Believed on your Cunning against theirs; caught, you lose a bond."
+      }
+    },
+    {
+      "art": "card-idolHunt",
+      "builtIn": true,
+      "effects": [
+        {
+          "kind": "dig"
+        }
+      ],
+      "id": "idolHunt",
+      "name": "Shield Hunt",
+      "rarity": "common",
+      "symbol": "sparkle.magnifyingglass",
+      "target": "none",
+      "timing": "camp",
+      "uses": 1,
+      "words": {
+        "play": "Search for the Secret Shield. Each hunt improves your odds."
+      }
+    },
+    {
+      "art": "card-layLow",
+      "builtIn": true,
+      "effects": [
+        {
+          "kind": "heat",
+          "n": -2.5,
+          "who": "self"
+        }
+      ],
+      "id": "layLow",
+      "name": "Lay Low",
+      "rarity": "common",
+      "symbol": "eye.slash.fill",
+      "target": "none",
+      "timing": "camp",
+      "uses": 1,
+      "words": {
+        "play": "Look harmless tonight: nobody sees you as a threat."
+      }
+    },
+    {
+      "art": "card-train",
+      "builtIn": true,
+      "effects": [
+        {
+          "kind": "warzone",
+          "n": 3
+        }
+      ],
+      "id": "train",
+      "name": "Train",
+      "rarity": "common",
+      "symbol": "figure.run",
+      "target": "none",
+      "timing": "camp",
+      "uses": 1,
+      "words": {
+        "play": "+3 to your score in today's War Zone. Train twice and it stacks."
+      }
+    },
+    {
+      "art": "card-pact",
+      "builtIn": true,
+      "effects": [
+        {
+          "kind": "pact",
+          "who": "target"
+        }
+      ],
+      "id": "pact",
+      "name": "Alliance Pact",
+      "rarity": "common",
+      "symbol": "hand.raised.fill",
+      "target": "other",
+      "timing": "camp",
+      "uses": 1,
+      "words": {
+        "play": "Ask a castaway who trusts you (bond ≥ 1) to vote with you tonight."
+      }
+    },
+    {
+      "art": "card-trade",
+      "builtIn": true,
+      "effects": [
+        {
+          "kind": "trade",
+          "who": "target"
+        }
+      ],
+      "id": "trade",
+      "name": "Trade Secrets",
+      "rarity": "common",
+      "symbol": "arrow.left.arrow.right",
+      "target": "other",
+      "timing": "camp",
+      "uses": 1,
+      "words": {
+        "play": "Swap notes with someone: tell them whether you hold a Secret Shield, truth or lie, and hear who they're writing tonight."
+      }
+    },
+    {
+      "art": "card-stall",
+      "builtIn": true,
+      "cost": 0,
+      "effects": [
+        {
+          "kind": "seconds",
+          "n": 20
+        }
+      ],
+      "id": "stall20",
+      "name": "Stall · 20 s",
+      "rarity": "common",
+      "symbol": "clock.fill",
+      "target": "none",
+      "timing": "lastLight",
+      "uses": 1,
+      "words": {
+        "play": "At the last light before a Mela: 20 more seconds to work the camp. Costs no play."
+      }
+    },
+    {
+      "art": "card-stall",
+      "builtIn": true,
+      "cost": 0,
+      "effects": [
+        {
+          "kind": "seconds",
+          "n": 30
+        }
+      ],
+      "id": "stall30",
+      "name": "Stall · 30 s",
+      "rarity": "common",
+      "symbol": "clock.fill",
+      "target": "none",
+      "timing": "lastLight",
+      "uses": 1,
+      "words": {
+        "play": "At the last light before a Mela: 30 more seconds to work the camp. Costs no play."
+      }
+    },
+    {
+      "art": "card-stall",
+      "builtIn": true,
+      "cost": 0,
+      "effects": [
+        {
+          "kind": "seconds",
+          "n": 45
+        }
+      ],
+      "id": "stall45",
+      "name": "Stall · 45 s",
+      "rarity": "common",
+      "symbol": "clock.fill",
+      "target": "none",
+      "timing": "lastLight",
+      "uses": 1,
+      "words": {
+        "play": "At the last light before a Mela: 45 more seconds to work the camp. Costs no play."
+      }
+    },
+    {
+      "art": "adv-stealVote",
+      "builtIn": true,
+      "cost": 0,
+      "effects": [
+        {
+          "kind": "vote.steal",
+          "who": "target"
+        }
+      ],
+      "id": "stealVote",
+      "name": "Stolen Vote",
+      "rarity": "rare",
+      "symbol": "hand.raised.fingers.spread.fill",
+      "target": "other",
+      "timing": "beforeBallots",
+      "uses": 1,
+      "words": {
+        "host": "Play before the votes are cast. Name one castaway at the fire: their vote is yours tonight, and you write two names. Everyone sees whose vote was taken, and by whom.",
+        "play": "Take someone's vote and write two names."
+      }
+    },
+    {
+      "art": "adv-blockVote",
+      "builtIn": true,
+      "cost": 0,
+      "effects": [
+        {
+          "kind": "vote.block",
+          "who": "target"
+        }
+      ],
+      "id": "blockVote",
+      "name": "Vote Blocker",
+      "rarity": "rare",
+      "symbol": "hand.raised.slash.fill",
+      "target": "other",
+      "timing": "beforeBallots",
+      "uses": 1,
+      "words": {
+        "host": "Play before the votes are cast. Name one castaway at the fire: their vote tonight does not count. Nobody is told who played it. Only the people you've told can know.",
+        "play": "Quietly void someone's vote."
+      }
+    },
+    {
+      "art": "adv-houdini",
+      "builtIn": true,
+      "cost": 0,
+      "effects": [
+        {
+          "kind": "leave",
+          "what": "fire"
+        }
+      ],
+      "id": "houdini",
+      "name": "Houdini",
+      "rarity": "superRare",
+      "symbol": "figure.walk.departure",
+      "target": "none",
+      "timing": "beforeBallots",
+      "uses": 1,
+      "words": {
+        "host": "Play before the votes are cast. You leave the Mela. You cannot vote and no vote against you counts. The camp will know you ran, and your friends will take it hardest.",
+        "play": "Leave the fire. Safe tonight, trusted less tomorrow."
+      }
+    },
+    {
+      "art": "shield",
+      "builtIn": true,
+      "cost": 0,
+      "effects": [
+        {
+          "how": "secret",
+          "kind": "protect",
+          "who": "self"
+        }
+      ],
+      "id": "secretShield",
+      "name": "Secret Shield",
+      "rarity": "rare",
+      "symbol": "shield.lefthalf.filled",
+      "target": "other",
+      "timing": "beforeBallots",
+      "uses": 1,
+      "words": {
+        "host": "This is a Secret Shield. Play it before the votes are read, for yourself or for someone else at the fire: any vote against the one who holds it will not count. It can be used until five castaways remain. Keep it hidden, or don't.",
+        "play": "Any vote against the one who holds it will not count. Play it for yourself or for someone else at the fire."
+      }
+    }
+  ],
   "career": {
     "buildCap": 7,
     "buildPoints": 6,
@@ -1124,5 +1508,5 @@
     "legendPrice": 3,
     "perSeason": 1
   },
-  "version": "2026-10-08.1"
+  "version": "2026-10-09.1"
 }
