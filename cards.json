@@ -380,5 +380,249 @@
       "host" : "This is a Secret Shield. Play it before the votes are read, for yourself or for someone else at the fire: any vote against the one who holds it will not count. It can be used until five castaways remain. Keep it hidden, or don't.",
       "play" : "Any vote against the one who holds it will not count. Play it for yourself or for someone else at the fire."
     }
+  },
+  {
+    "effects" : [
+      {
+        "kind" : "draw",
+        "n" : 2
+      }
+    ],
+    "id" : "secondwind",
+    "name" : "Second Wind",
+    "rarity" : "common",
+    "symbol" : "wind",
+    "target" : "none",
+    "timing" : "camp",
+    "uses" : 1,
+    "words" : {
+      "play" : "You catch your breath and draw {count} more."
+    }
+  },
+  {
+    "cost" : 0,
+    "effects" : [
+      {
+        "kind" : "seconds",
+        "n" : 25
+      }
+    ],
+    "id" : "deepbreath",
+    "name" : "Deep Breath",
+    "rarity" : "common",
+    "symbol" : "lungs.fill",
+    "target" : "none",
+    "timing" : "lastLight",
+    "uses" : 1,
+    "words" : {
+      "play" : "A long drink of water. {n} more seconds at the last light."
+    }
+  },
+  {
+    "effects" : [
+      {
+        "kind" : "bond",
+        "n" : 1,
+        "who" : "target"
+      },
+      {
+        "kind" : "warzone",
+        "n" : 2
+      }
+    ],
+    "id" : "coconut",
+    "name" : "The Last Coconut",
+    "rarity" : "common",
+    "symbol" : "leaf.fill",
+    "target" : "other",
+    "timing" : "camp",
+    "uses" : 1,
+    "words" : {
+      "play" : "You give {target} the last coconut, and eat better for it in the War Zone."
+    }
+  },
+  {
+    "effects" : [
+      {
+        "kind" : "reveal",
+        "what" : "camp.hunters"
+      },
+      {
+        "kind" : "warzone",
+        "n" : 2
+      }
+    ],
+    "id" : "scout",
+    "name" : "Scout",
+    "rarity" : "common",
+    "symbol" : "binoculars.fill",
+    "target" : "none",
+    "timing" : "camp",
+    "uses" : 1,
+    "words" : {
+      "play" : "{count} after you tonight: {names}. And you know the course now."
+    }
+  },
+  {
+    "effects" : [
+      {
+        "kind" : "plays",
+        "n" : 2
+      }
+    ],
+    "id" : "doubledown",
+    "name" : "Double Down",
+    "rarity" : "rare",
+    "symbol" : "arrow.2.squarepath",
+    "target" : "none",
+    "timing" : "camp",
+    "uses" : 1,
+    "words" : {
+      "play" : "You dig in: {n} more cards today."
+    }
+  },
+  {
+    "effects" : [
+      {
+        "kind" : "reveal",
+        "what" : "camp.plans"
+      }
+    ],
+    "id" : "openears",
+    "name" : "Open Ears",
+    "rarity" : "rare",
+    "symbol" : "ear.fill",
+    "target" : "none",
+    "timing" : "camp",
+    "uses" : 1,
+    "words" : {
+      "play" : "You hear every plan at camp. {count} after you: {names}."
+    }
+  },
+  {
+    "effects" : [
+      {
+        "kind" : "heat",
+        "n" : -3,
+        "who" : "self"
+      }
+    ],
+    "id" : "quietday",
+    "name" : "Quiet Day",
+    "rarity" : "rare",
+    "symbol" : "eye.slash",
+    "target" : "none",
+    "timing" : "camp",
+    "uses" : 1,
+    "words" : {
+      "play" : "You fetch water and say nothing. Tonight you look like nobody."
+    }
+  },
+  {
+    "effects" : [
+      {
+        "kind" : "heat",
+        "n" : 2,
+        "who" : "target"
+      }
+    ],
+    "id" : "marked",
+    "name" : "Marked",
+    "rarity" : "superRare",
+    "symbol" : "target",
+    "target" : "other",
+    "timing" : "camp",
+    "uses" : 1,
+    "words" : {
+      "play" : "A word here, a look there: tonight {target} looks like the one running things."
+    }
+  },
+  {
+    "effects" : [
+      {
+        "kind" : "reveal",
+        "what" : "target.plan"
+      },
+      {
+        "kind" : "reveal",
+        "what" : "target.shield"
+      },
+      {
+        "kind" : "learn",
+        "what" : "kind"
+      }
+    ],
+    "id" : "longmemory",
+    "name" : "Long Memory",
+    "rarity" : "superRare",
+    "symbol" : "brain.head.profile",
+    "target" : "other",
+    "timing" : "camp",
+    "uses" : 1,
+    "words" : {
+      "play" : "You read {target} like a book: writing {plan} tonight, {shield} hold a shield, a {kind}."
+    }
+  },
+  {
+    "cost" : 0,
+    "effects" : [
+      {
+        "kind" : "vote.double"
+      }
+    ],
+    "id" : "doublevote",
+    "name" : "Double Vote",
+    "rarity" : "ultraRare",
+    "symbol" : "2.circle.fill",
+    "target" : "none",
+    "timing" : "beforeBallots",
+    "uses" : 1,
+    "words" : {
+      "host" : "Hollis: \"That ballot counts twice. The island's rules.\"",
+      "play" : "Your vote counts twice tonight."
+    }
+  },
+  {
+    "cost" : 0,
+    "effects" : [
+      {
+        "kind" : "vote.void",
+        "who" : "target"
+      }
+    ],
+    "id" : "sealedurn",
+    "name" : "Sealed Urn",
+    "rarity" : "ultraRare",
+    "symbol" : "lock.shield.fill",
+    "target" : "other",
+    "timing" : "beforeBallots",
+    "uses" : 1,
+    "words" : {
+      "host" : "Hollis: \"A Sealed Urn. Any vote against {target} will not count.\"",
+      "play" : "No vote against {target} counts tonight, and everyone sees you do it."
+    }
+  },
+  {
+    "effects" : [
+      {
+        "kind" : "warzone",
+        "n" : 6
+      },
+      {
+        "kind" : "heat",
+        "n" : -2,
+        "who" : "self"
+      }
+    ],
+    "id" : "islandsfavour",
+    "name" : "The Island's Favour",
+    "rarity" : "legendaryRare",
+    "symbol" : "sun.max.fill",
+    "target" : "none",
+    "timing" : "camp",
+    "uses" : 1,
+    "words" : {
+      "play" : "The island is with you today: +{n} in the War Zone, and nobody sees you coming."
+    }
   }
 ]
